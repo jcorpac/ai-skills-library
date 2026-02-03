@@ -83,6 +83,7 @@ Professional version control and repository management.
 - **[git-hooks-automation](./git-hooks-automation)**: Automated pre-commit checks.
 - **[git-history-polish](./git-history-polish)**: Advanced history management with rebase.
 - **[git-tagging-releases](./git-tagging-releases)**: Semantic versioning and milestones.
+- **[git-github-master](./git-github-master)**: Remote publishing and collaboration.
 
 ---
 
