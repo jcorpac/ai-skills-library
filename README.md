@@ -56,5 +56,20 @@ For instructions on adding your own skills, see [CONTRIBUTING.md](./CONTRIBUTING
 
 ---
 
+## ⚡ Vibe Coding Integration
+
+"Vibe coding" relies on AI agents having high-quality context and modular instructions. To use these skills in your vibe coding projects:
+
+### 1. Repository-as-Context
+If your agent (e.g., Cursor, Windsurf, or a custom MCP server) supports indexing local repositories, simply point it to this root directory. It will automatically discover the skills based on the `SKILL.md` files.
+
+### 2. Manual Skill Ingestion
+To apply a specific skill to a new project session, copy the content of the relevant `SKILL.md` into your agent's system prompt or project-specific instructions (e.g., `.cursorrules`).
+
+### 3. Script Execution
+Many skills (like `tdd-cycle-manager`) include automation scripts in their `scripts/` folder. Ensure your environment has the necessary runtimes (Python, Node) to allow the agent to execute these utilities on your behalf.
+
+---
+
 ## ⚖️ License
 This project is licensed under the MIT License.
