@@ -26,7 +26,7 @@ description: A concise, one-sentence summary of the skill's purpose.
 
 ## 🚀 Submission Process
 
-1.  **Draft**: Use the `example-skill/` directory as a template.
+1.  **Draft**: Use the `template-skill/` directory as a template.
 2.  **Verify**: Ensure all paths in your documentation are accurate.
 3.  **Clean**: Remove any "zombie code" or redundant comments from your scripts.
 4.  **Commit**: Use a clear commit message (e.g., `Add doc-inline-clean skill`).
