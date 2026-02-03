@@ -52,6 +52,7 @@ Specialized patterns for the full data science lifecycle.
 - **[ds-model-evaluation](./ds-model-evaluation)**: Accurate validation and reporting.
 - **[ds-experiment-tracking](./ds-experiment-tracking)**: Reproducibility patterns.
 - **[ds-notebook-refactor](./ds-notebook-refactor)**: Transitioning research code to production.
+- **[ds-presentation-storyteller](./ds-presentation-storyteller)**: Crafting narrative-driven data stories.
 
 ---
 
