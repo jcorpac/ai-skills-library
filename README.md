@@ -1,22 +1,60 @@
-# Skills Repository
+# 🛠️ AI Skills Repository
 
-A central repository for specialized AI "skills". Each skill is an autonomous package of instructions, scripts, and resources that can be applied to various projects.
+A production-ready collection of specialized AI "skills". Each skill is an autonomous package of instructions, patterns, and resources designed to extend an agent's capabilities across various development domains.
 
-## Project Structure
+---
+
+## 🏗️ Repository Structure
+
+This repository uses a standardized layout for all skills, ensuring consistency and ease of integration.
 
 ```text
 skills/
-├── example-skill/       # A template skill showing the standard structure
-│   ├── SKILL.md         # Core instructions and YAML metadata
-│   ├── scripts/         # Helper scripts (Python, JS, Shell, etc.)
-│   ├── examples/        # Usage examples and patterns
-│   └── resources/       # External assets and data
-├── .gitignore           # Repository-level ignore rules
-└── README.md            # Repository documentation
+├── [category]-[skill-name]/  # Categorized skill directory
+│   ├── SKILL.md              # Core instructions & YAML metadata
+│   ├── scripts/              # Automation utilities
+│   ├── examples/             # Practical usage patterns
+│   └── resources/            # Templates and assets
+├── CONTRIBUTING.md           # Guide for adding new skills
+└── README.md                 # Main entry point
 ```
 
-## Creating a New Skill
+---
 
-1. Create a new directory for your skill: `mkdir my-new-skill`
-2. Follow the structure demonstrated in `example-skill/`.
-3. Provide a concise `SKILL.md` with appropriate YAML frontmatter.
+## 📚 Skill Inventory
+
+### 🧪 Test-Driven Development (TDD) Suite
+Comprehensive tools for maintaining high code quality through rigorous testing.
+- **[tdd-cycle-manager](./tdd-cycle-manager)**: Guides the Red-Green-Refactor loop.
+- **[tdd-test-generator](./tdd-test-generator)**: Scaffolds unit tests and edge cases.
+- **[tdd-refactor-expert](./tdd-refactor-expert)**: Catalog of safe code transformation patterns.
+- **[tdd-mocking-isolation](./tdd-mocking-isolation)**: Master dependency isolation.
+- **[tdd-bdd-gherkin](./tdd-bdd-gherkin)**: Connect business requirements to tests.
+- **[tdd-legacy-rescue](./tdd-legacy-rescue)**: Strategies for untested legacy systems.
+- **[tdd-architecture-patterns](./tdd-architecture-patterns)**: Design for testability.
+- **[tdd-property-testing](./tdd-property-testing)**: Generative testing for edge cases.
+- **[tdd-automation-flow](./tdd-automation-flow)**: Feedback loop optimization.
+
+### 📝 Documentation Suite
+Establish clear communication and maintainable technical lore.
+- **[doc-readme-master](./doc-readme-master)**: Crafting high-impact project entry points.
+- **[doc-adr-architect](./doc-adr-architect)**: Recording architectural decision context.
+- **[doc-api-auto](./doc-api-auto)**: Streamlined API documenting strategies.
+- **[doc-knowledge-base](./doc-knowledge-base)**: Internal lore and onboarding guides.
+- **[doc-changelog-keeper](./doc-changelog-keeper)**: Human-readable version history.
+- **[doc-inline-clean](./doc-inline-clean)**: Principles for self-documenting code.
+
+---
+
+## 🚀 Getting Started
+
+1. **Browse**: Explore the subdirectories above to find a skill relevant to your task.
+2. **Apply**: Read the `SKILL.md` within a specific directory to understand the methodology.
+3. **Use**: Leverage the scripts and templates in the `scripts/` and `resources/` folders.
+
+For instructions on adding your own skills, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+---
+
+## ⚖️ License
+This project is licensed under the MIT License.
