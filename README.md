@@ -118,6 +118,14 @@ Mastering production-grade web development with Flask.
 - **[flask-assets-management](./flask-assets-management)**: Minification and bundling pipelines.
 - **[flask-testing-patterns](./flask-testing-patterns)**: Professional testing with Pytest.
 
+### 🧠 Meta-Skill & Orchestration
+Advanced strategies for managing large skill ecosystems and context.
+- **[meta-skill-routing](./meta-skill-routing)**: Dynamic skill discovery and routing.
+- **[meta-context-budgeting](./meta-context-budgeting)**: Context window management and purging.
+- **[meta-agentic-chunking](./meta-agentic-chunking)**: Task decomposition and isolated execution.
+- **[meta-mcp-dynamic-tools](./meta-mcp-dynamic-tools)**: MCP-driven dynamic tool injection.
+- **[meta-recursive-discovery](./meta-recursive-discovery)**: Autonomous self-improvement and discovery.
+
 ---
 
 ## 🚀 Getting Started
