@@ -44,6 +44,15 @@ Establish clear communication and maintainable technical lore.
 - **[doc-changelog-keeper](./doc-changelog-keeper)**: Human-readable version history.
 - **[doc-inline-clean](./doc-inline-clean)**: Principles for self-documenting code.
 
+### 🐍 Data Science Suite (Python)
+Specialized patterns for the full data science lifecycle.
+- **[ds-eda-expert](./ds-eda-expert)**: Systematic Exploratory Data Analysis.
+- **[ds-data-wrangling](./ds-data-wrangling)**: Robust cleaning and optimization.
+- **[ds-feature-engineering](./ds-feature-engineering)**: High-signal feature creation.
+- **[ds-model-evaluation](./ds-model-evaluation)**: Accurate validation and reporting.
+- **[ds-experiment-tracking](./ds-experiment-tracking)**: Reproducibility patterns.
+- **[ds-notebook-refactor](./ds-notebook-refactor)**: Transitioning research code to production.
+
 ---
 
 ## 🚀 Getting Started
