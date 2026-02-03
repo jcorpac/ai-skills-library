@@ -1,9 +1,9 @@
 ---
-name: Example Skill
+name: Template Skill
 description: A template skill demonstrating the required structure and metadata for a skill package.
 ---
 
-# Example Skill Instructions
+# Template Skill Instructions
 
 This skill serves as a reference for creating new skills in this repository. 
 
