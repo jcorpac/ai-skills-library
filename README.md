@@ -107,6 +107,17 @@ Professional engineering for the Model Context Protocol.
 - **[mcp-testing-frameworks](./mcp-testing-frameworks)**: Automated verification for MCP tools.
 - **[mcp-deployment-registry](./mcp-deployment-registry)**: UV/Docker packaging and host integration.
 
+### 🌶️ Full-Stack Flask Mastery
+Mastering production-grade web development with Flask.
+- **[flask-foundations](./flask-foundations)**: App Factory and Blueprints.
+- **[flask-templating-jinja](./flask-templating-jinja)**: Server-side rendering and layouts.
+- **[flask-forms-validation](./flask-forms-validation)**: Secure input handling with Flask-WTF.
+- **[flask-data-persistence](./flask-data-persistence)**: SQLAlchemy ORM and migrations.
+- **[flask-auth-security](./flask-auth-security)**: Session and JWT authentication patterns.
+- **[flask-api-design](./flask-api-design)**: RESTful design and serialization.
+- **[flask-assets-management](./flask-assets-management)**: Minification and bundling pipelines.
+- **[flask-testing-patterns](./flask-testing-patterns)**: Professional testing with Pytest.
+
 ---
 
 ## 🚀 Getting Started
