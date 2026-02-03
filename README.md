@@ -75,6 +75,15 @@ Premium frontend development without frameworks.
 - **[ui-responsive-grids](./ui-responsive-grids)**: Fluid layouts with Grid and Flexbox.
 - **[ui-component-architecture](./ui-component-architecture)**: Reusable, encapsulated UI blocks.
 
+### 🛠️ Git Mastery Suite
+Professional version control and repository management.
+- **[git-atomic-commits](./git-atomic-commits)**: Small, focused, and reversible changes.
+- **[git-conventional-naming](./git-conventional-naming)**: Structured and machine-readable commits.
+- **[git-branching-flow](./git-branching-flow)**: Collaboration strategies for speed and safety.
+- **[git-hooks-automation](./git-hooks-automation)**: Automated pre-commit checks.
+- **[git-history-polish](./git-history-polish)**: Advanced history management with rebase.
+- **[git-tagging-releases](./git-tagging-releases)**: Semantic versioning and milestones.
+
 ---
 
 ## 🚀 Getting Started
