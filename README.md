@@ -54,6 +54,27 @@ Specialized patterns for the full data science lifecycle.
 - **[ds-notebook-refactor](./ds-notebook-refactor)**: Transitioning research code to production.
 - **[ds-presentation-storyteller](./ds-presentation-storyteller)**: Crafting narrative-driven data stories.
 
+### 🐍 Language Excellence (Python)
+Advanced patterns for performance and scalability.
+- **[py-performance-tuning](./py-performance-tuning)**: Profiling and speed optimization.
+- **[py-packaging-pro](./py-packaging-pro)**: Modern project setup and distribution.
+- **[py-asyncio-flow](./py-asyncio-flow)**: Mastering asynchronous concurrency.
+
+### 🦀 Language Excellence (Rust)
+Systems programming with safety and high performance.
+- **[rs-memory-safety](./rs-memory-safety)**: Ownership, lifetimes, and safety.
+- **[rs-error-excellence](./rs-error-excellence)**: Idiomatic error handling patterns.
+- **[rs-zero-cost-abstractions](./rs-zero-cost-abstractions)**: Zero-overhead type system magic.
+
+### 🎨 UI/UX & Presentation Layer
+Premium frontend development without frameworks.
+- **[ui-vanilla-premium](./ui-vanilla-premium)**: Bespoke styling and high-end aesthetics.
+- **[ui-accessibility-pro](./ui-accessibility-pro)**: Inclusive design and A11y standards.
+- **[ui-js-modular-patterns](./ui-js-modular-patterns)**: Clean, scalable JavaScript logic.
+- **[ui-dynamic-interactions](./ui-dynamic-interactions)**: Professional animations and feedback.
+- **[ui-responsive-grids](./ui-responsive-grids)**: Fluid layouts with Grid and Flexbox.
+- **[ui-component-architecture](./ui-component-architecture)**: Reusable, encapsulated UI blocks.
+
 ---
 
 ## 🚀 Getting Started
