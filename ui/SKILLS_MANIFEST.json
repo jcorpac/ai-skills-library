@@ -1,0 +1,60 @@
+﻿{
+    "category":  "UI/UX \u0026 Presentation Layer",
+    "description":  "Premium frontend development and dynamic rendering without frameworks.",
+    "skills":  [
+                   {
+                       "path":  "./ui-vanilla-premium",
+                       "description":  "Bespoke styling and high-end aesthetics.",
+                       "name":  "ui-vanilla-premium",
+                       "id":  "ui-vanilla-premium"
+                   },
+                   {
+                       "path":  "./ui-accessibility-pro",
+                       "description":  "Inclusive design and A11y standards.",
+                       "name":  "ui-accessibility-pro",
+                       "id":  "ui-accessibility-pro"
+                   },
+                   {
+                       "path":  "./ui-js-modular-patterns",
+                       "description":  "Clean, scalable JavaScript logic.",
+                       "name":  "ui-js-modular-patterns",
+                       "id":  "ui-js-modular-patterns"
+                   },
+                   {
+                       "path":  "./ui-dynamic-interactions",
+                       "description":  "Professional animations and feedback.",
+                       "name":  "ui-dynamic-interactions",
+                       "id":  "ui-dynamic-interactions"
+                   },
+                   {
+                       "path":  "./ui-responsive-grids",
+                       "description":  "Fluid layouts with Grid and Flexbox.",
+                       "name":  "ui-responsive-grids",
+                       "id":  "ui-responsive-grids"
+                   },
+                   {
+                       "path":  "./ui-component-architecture",
+                       "description":  "Reusable, encapsulated UI blocks.",
+                       "name":  "ui-component-architecture",
+                       "id":  "ui-component-architecture"
+                   },
+                   {
+                       "path":  "./ui-portfolio-theming",
+                       "description":  "Premium design for documentation portfolios.",
+                       "name":  "ui-portfolio-theming",
+                       "id":  "ui-portfolio-theming"
+                   },
+                   {
+                       "path":  "./js-markdown-rendering",
+                       "description":  "Dynamic browser-side markdown rendering.",
+                       "name":  "js-markdown-rendering",
+                       "id":  "js-markdown-rendering"
+                   },
+                   {
+                       "path":  "./ui-search-filtering",
+                       "description":  "Fast client-side skill searching.",
+                       "name":  "ui-search-filtering",
+                       "id":  "ui-search-filtering"
+                   }
+               ]
+}

@@ -1,0 +1,48 @@
+﻿{
+    "category":  "Git Mastery Suite",
+    "description":  "Professional version control and repository management.",
+    "skills":  [
+                   {
+                       "path":  "./git-atomic-commits",
+                       "description":  "Small, focused, and reversible changes.",
+                       "name":  "git-atomic-commits",
+                       "id":  "git-atomic-commits"
+                   },
+                   {
+                       "path":  "./git-conventional-naming",
+                       "description":  "Structured and machine-readable commits.",
+                       "name":  "git-conventional-naming",
+                       "id":  "git-conventional-naming"
+                   },
+                   {
+                       "path":  "./git-branching-flow",
+                       "description":  "Collaboration strategies for speed and safety.",
+                       "name":  "git-branching-flow",
+                       "id":  "git-branching-flow"
+                   },
+                   {
+                       "path":  "./git-hooks-automation",
+                       "description":  "Automated pre-commit checks.",
+                       "name":  "git-hooks-automation",
+                       "id":  "git-hooks-automation"
+                   },
+                   {
+                       "path":  "./git-history-polish",
+                       "description":  "Advanced history management with rebase.",
+                       "name":  "git-history-polish",
+                       "id":  "git-history-polish"
+                   },
+                   {
+                       "path":  "./git-tagging-releases",
+                       "description":  "Semantic versioning and milestones.",
+                       "name":  "git-tagging-releases",
+                       "id":  "git-tagging-releases"
+                   },
+                   {
+                       "path":  "./git-github-master",
+                       "description":  "Remote publishing and collaboration.",
+                       "name":  "git-github-master",
+                       "id":  "git-github-master"
+                   }
+               ]
+}

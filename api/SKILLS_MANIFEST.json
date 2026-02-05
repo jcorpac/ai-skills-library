@@ -1,0 +1,12 @@
+﻿{
+    "category":  "Modern Ecosystem Expansion (FastAPI)",
+    "description":  "Type-safe, high-performance API development with Modern Python.",
+    "skills":  [
+                   {
+                       "path":  "./api-fastapi-modern",
+                       "description":  "Type-safe, high-performance APIs.",
+                       "name":  "api-fastapi-modern",
+                       "id":  "api-fastapi-modern"
+                   }
+               ]
+}

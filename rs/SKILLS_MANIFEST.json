@@ -1,0 +1,24 @@
+﻿{
+    "category":  "Language Excellence (Rust)",
+    "description":  "Systems programming with safety and high performance.",
+    "skills":  [
+                   {
+                       "path":  "./rs-memory-safety",
+                       "description":  "Ownership, lifetimes, and safety.",
+                       "name":  "rs-memory-safety",
+                       "id":  "rs-memory-safety"
+                   },
+                   {
+                       "path":  "./rs-error-excellence",
+                       "description":  "Idiomatic error handling patterns.",
+                       "name":  "rs-error-excellence",
+                       "id":  "rs-error-excellence"
+                   },
+                   {
+                       "path":  "./rs-zero-cost-abstractions",
+                       "description":  "Zero-overhead type system magic.",
+                       "name":  "rs-zero-cost-abstractions",
+                       "id":  "rs-zero-cost-abstractions"
+                   }
+               ]
+}

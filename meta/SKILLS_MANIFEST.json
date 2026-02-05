@@ -1,0 +1,42 @@
+﻿{
+    "category":  "Meta-Skill \u0026 Orchestration",
+    "description":  "Advanced strategies for managing large skill ecosystems and context.",
+    "skills":  [
+                   {
+                       "path":  "./meta-skill-routing",
+                       "description":  "Dynamic skill discovery and routing.",
+                       "name":  "meta-skill-routing",
+                       "id":  "meta-skill-routing"
+                   },
+                   {
+                       "path":  "./meta-context-budgeting",
+                       "description":  "Context window management and purging.",
+                       "name":  "meta-context-budgeting",
+                       "id":  "meta-context-budgeting"
+                   },
+                   {
+                       "path":  "./meta-agentic-chunking",
+                       "description":  "Task decomposition and isolated execution.",
+                       "name":  "meta-agentic-chunking",
+                       "id":  "meta-agentic-chunking"
+                   },
+                   {
+                       "path":  "./meta-mcp-dynamic-tools",
+                       "description":  "MCP-driven dynamic tool injection.",
+                       "name":  "meta-mcp-dynamic-tools",
+                       "id":  "meta-mcp-dynamic-tools"
+                   },
+                   {
+                       "path":  "./meta-recursive-discovery",
+                       "description":  "Autonomous self-improvement and discovery.",
+                       "name":  "meta-recursive-discovery",
+                       "id":  "meta-recursive-discovery"
+                   },
+                   {
+                       "path":  "./template-skill",
+                       "description":  "A standardized template for creating new AI skills.",
+                       "name":  "template-skill",
+                       "id":  "template-skill"
+                   }
+               ]
+}
