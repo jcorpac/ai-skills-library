@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Skills Library | Premium Showcase</title>
+    <meta name="description" content="Explore 84 specialized AI skills for development, data science, and DevOps.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="hero-title">AI Skills Library</h1>
+            <p class="hero-subtitle">A professional collection of 84 specialized skills for autonomous agents and advanced developers.</p>
+        </header>
+
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="skill-search" class="search-input" placeholder="Search 84 skills (e.g., TDD, Docker, Python)..." autocomplete="off">
+                </div>
+            </div>
+        </section>
+
+        <main id="skills-grid" class="skills-grid">
+            <!-- Skills will be injected here -->
+            <div class="loader">Loading the library...</div>
+        </main>
+    </div>
+
+    <!-- Content Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <article id="content-viewer"></article>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
