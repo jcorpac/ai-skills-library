@@ -1,0 +1,20 @@
+---
+name: Docker Networking & Volumes
+description: Managing persistent data and complex service-to-service communication.
+---
+
+# Docker Networking & Volumes
+
+Containers are ephemeral; your data shouldn't be.
+
+## Volumes & Persistence
+- **Named Volumes**: Managed by Docker, best for databases and persistent app state.
+- **Bind Mounts**: Direct host-to-container mapping, best for development code.
+
+## Internal Networking
+- **User-Defined Bridges**: Created isolated networks for containers to talk to each other via service names (DNS).
+- **Aliases**: Give containers multiple network identities.
+
+## Best Practices
+- **External Networks**: Avoid using the default "bridge" network for production.
+- **Volume Backups**: Regularly back up persistent volumes.

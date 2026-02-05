@@ -126,6 +126,21 @@ Advanced strategies for managing large skill ecosystems and context.
 - **[meta-mcp-dynamic-tools](./meta-mcp-dynamic-tools)**: MCP-driven dynamic tool injection.
 - **[meta-recursive-discovery](./meta-recursive-discovery)**: Autonomous self-improvement and discovery.
 
+### 🚀 Modern Ecosystem Expansion
+High-performance tools for modern data science and API development.
+- **[ds-polars-performance](./ds-polars-performance)**: Lightning-fast DataFrames with Polars.
+- **[ml-streamlit-apps](./ml-streamlit-apps)**: Rapid interactive ML dashboarding.
+- **[api-fastapi-modern](./api-fastapi-modern)**: Type-safe, high-performance APIs.
+- **[ops-github-actions-cicd](./ops-github-actions-cicd)**: Professional workflow automation.
+
+### 🐳 Docker & Container Mastery
+Production-grade containerization and orchestration.
+- **[ops-docker-foundations](./ops-docker-foundations)**: Container lifecycle and basic patterns.
+- **[ops-docker-compose-orchestration](./ops-docker-compose-orchestration)**: Multi-container local development.
+- **[ops-docker-optimization](./ops-docker-optimization)**: Multi-stage builds and layer caching.
+- **[ops-docker-security-hardening](./ops-docker-security-hardening)**: Non-root execution and secret management.
+- **[ops-docker-networking-volumes](./ops-docker-networking-volumes)**: Persistent data and service networks.
+
 ---
 
 ## 🚀 Getting Started
