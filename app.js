@@ -11,7 +11,7 @@ let allSkills = [];
 async function init() {
     try {
         // Fetch the README to parse the inventory
-        const response = await fetch('README.md');
+        const response = await fetch('./README.md');
         const text = await response.text();
 
         // Simple lines parser to capture categories and skills
