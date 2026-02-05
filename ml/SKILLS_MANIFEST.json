@@ -1,72 +1,72 @@
-﻿{
-    "category":  "Machine Learning \u0026 MLOps",
-    "description":  "Comprehensive methodologies for the ML lifecycle.",
-    "skills":  [
-                   {
-                       "path":  "./ml-supervised-patterns",
-                       "description":  "Classification and Regression pipelines.",
-                       "name":  "ml-supervised-patterns",
-                       "id":  "ml-supervised-patterns"
-                   },
-                   {
-                       "path":  "./ml-unsupervised-clustering",
-                       "description":  "Pattern discovery and PCA.",
-                       "name":  "ml-unsupervised-clustering",
-                       "id":  "ml-unsupervised-clustering"
-                   },
-                   {
-                       "path":  "./ml-hyperparameter-tuning",
-                       "description":  "Professional optimization with Optuna.",
-                       "name":  "ml-hyperparameter-tuning",
-                       "id":  "ml-hyperparameter-tuning"
-                   },
-                   {
-                       "path":  "./ml-deep-learning-foundations",
-                       "description":  "Neural nets and Transfer Learning.",
-                       "name":  "ml-deep-learning-foundations",
-                       "id":  "ml-deep-learning-foundations"
-                   },
-                   {
-                       "path":  "./ml-nlp-transformers",
-                       "description":  "Modern NLP and Hugging Face.",
-                       "name":  "ml-nlp-transformers",
-                       "id":  "ml-nlp-transformers"
-                   },
-                   {
-                       "path":  "./ml-training-abstractions",
-                       "description":  "PyTorch Lightning and Keras patterns.",
-                       "name":  "ml-training-abstractions",
-                       "id":  "ml-training-abstractions"
-                   },
-                   {
-                       "path":  "./ml-experiment-tracking-pro",
-                       "description":  "Rigorous logging with MLflow/W\u0026B.",
-                       "name":  "ml-experiment-tracking-pro",
-                       "id":  "ml-experiment-tracking-pro"
-                   },
-                   {
-                       "path":  "./ml-serving-frameworks",
-                       "description":  "Scalable serving with BentoML/Ray.",
-                       "name":  "ml-serving-frameworks",
-                       "id":  "ml-serving-frameworks"
-                   },
-                   {
-                       "path":  "./ml-feature-store-basics",
-                       "description":  "Feature management with Feast.",
-                       "name":  "ml-feature-store-basics",
-                       "id":  "ml-feature-store-basics"
-                   },
-                   {
-                       "path":  "./ml-ops-pipelines",
-                       "description":  "Lifecycle orchestration with ZenML/Kubeflow.",
-                       "name":  "ml-ops-pipelines",
-                       "id":  "ml-ops-pipelines"
-                   },
-                   {
-                       "path":  "./ml-streamlit-apps",
-                       "description":  "Rapid interactive ML dashboarding.",
-                       "name":  "ml-streamlit-apps",
-                       "id":  "ml-streamlit-apps"
-                   }
-               ]
+{
+  "category": "Machine Learning & MLOps",
+  "skills": [
+    {
+      "id": "ml-supervised-patterns",
+      "name": "ml-supervised-patterns",
+      "path": "./ml-supervised-patterns",
+      "description": "Classification and Regression pipelines."
+    },
+    {
+      "id": "ml-unsupervised-clustering",
+      "name": "ml-unsupervised-clustering",
+      "path": "./ml-unsupervised-clustering",
+      "description": "Pattern discovery and PCA."
+    },
+    {
+      "id": "ml-hyperparameter-tuning",
+      "name": "ml-hyperparameter-tuning",
+      "path": "./ml-hyperparameter-tuning",
+      "description": "Professional optimization with Optuna."
+    },
+    {
+      "id": "ml-deep-learning-foundations",
+      "name": "ml-deep-learning-foundations",
+      "path": "./ml-deep-learning-foundations",
+      "description": "Neural nets and Transfer Learning."
+    },
+    {
+      "id": "ml-nlp-transformers",
+      "name": "ml-nlp-transformers",
+      "path": "./ml-nlp-transformers",
+      "description": "Modern NLP and Hugging Face."
+    },
+    {
+      "id": "ml-training-abstractions",
+      "name": "ml-training-abstractions",
+      "path": "./ml-training-abstractions",
+      "description": "PyTorch Lightning and Keras patterns."
+    },
+    {
+      "id": "ml-experiment-tracking-pro",
+      "name": "ml-experiment-tracking-pro",
+      "path": "./ml-experiment-tracking-pro",
+      "description": "Rigorous logging with MLflow/W&B."
+    },
+    {
+      "id": "ml-serving-frameworks",
+      "name": "ml-serving-frameworks",
+      "path": "./ml-serving-frameworks",
+      "description": "Scalable serving with BentoML/Ray."
+    },
+    {
+      "id": "ml-feature-store-basics",
+      "name": "ml-feature-store-basics",
+      "path": "./ml-feature-store-basics",
+      "description": "Feature management with Feast."
+    },
+    {
+      "id": "ml-ops-pipelines",
+      "name": "ml-ops-pipelines",
+      "path": "./ml-ops-pipelines",
+      "description": "Lifecycle orchestration with ZenML/Kubeflow."
+    },
+    {
+      "id": "ml-streamlit-apps",
+      "name": "ml-streamlit-apps",
+      "path": "./ml-streamlit-apps",
+      "description": "Rapid interactive ML dashboarding."
+    }
+  ],
+  "description": "Comprehensive methodologies for the ML lifecycle."
 }

@@ -1,4 +1,4 @@
-﻿# Git Mastery Suite
+# Git Mastery Suite
 
 Professional version control and repository management.
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,56 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
+
 <body>
 
     <div class="container">
         <header>
             <h1 class="hero-title">AI Skills Library</h1>
-            <p class="hero-subtitle">A professional collection of 84 specialized skills for autonomous agents and advanced developers.</p>
+            <p class="hero-subtitle">A professional collection of 84 specialized skills for autonomous agents and
+                advanced developers.</p>
         </header>
+
+        <section class="usage-section">
+            <details class="usage-details">
+                <summary class="usage-summary">
+                    <span class="summary-icon">🚀</span>
+                    <span>How to use these skills</span>
+                    <span class="chevron">▼</span>
+                </summary>
+                <div class="usage-content">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-text">
+                            <h3>Browse</h3>
+                            <p>Find the specific capability you need from the library below.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-text">
+                            <h3>Copy</h3>
+                            <p>Place the skill's markdown file into your project's <code>.agent/skills/</code>
+                                directory.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-text">
+                            <h3>Reference</h3>
+                            <p>Mention the skill in your agent's instructions (e.g., "Use the git skill to...").</p>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
 
         <section class="search-section">
             <div class="search-container">
                 <div class="search-wrapper">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="skill-search" class="search-input" placeholder="Search 84 skills (e.g., TDD, Docker, Python)..." autocomplete="off">
+                    <input type="text" id="skill-search" class="search-input"
+                        placeholder="Search 84 skills (e.g., TDD, Docker, Python)..." autocomplete="off">
                 </div>
             </div>
         </section>
@@ -42,4 +80,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
