@@ -37,6 +37,12 @@
                        "description":  "Standards for technical writing and formatting.",
                        "name":  "doc-style-guide",
                        "id":  "doc-style-guide"
+                   },
+                   {
+                       "path":  "./doc-inline-clean",
+                       "description":  "Principles for self-documenting code.",
+                       "name":  "doc-inline-clean",
+                       "id":  "doc-inline-clean"
                    }
                ]
 }
