@@ -1,36 +1,36 @@
 # Contributing a New Skill
 
-Thank you for helping expand the collective intelligence of this repository! To maintain quality and consistency, please follow these guidelines when adding a new skill.
+To maintain the architectural integrity and "Single Source of Truth" pattern of this repository, all new skills must adhere to these strict naming and registration protocols.
 
-## 📁 Standard Structure
+## 🏗️ Architectural Standards
 
-Every skill MUST inhabit its own directory and follow this exact layout:
+### 1. Naming & Folder Convention
+Every skill must be nested inside its appropriate category folder and **must** be prefixed with that category name.
+- **Pattern**: `[category]/[category]-[skill-name]`
+- **Example**: `api/api-stripe-integration` (Correct)
+- **Example**: `api/stripe-integration` (Incorrect)
 
-1.  **[skill-name]/SKILL.md**: The primary instruction file.
-    *   Must contain YAML frontmatter with `name` and `description`.
-    *   Should explain *what* the skill is and *how* to use it.
-2.  **[skill-name]/scripts/**: Folder for executable scripts (Python, JS, Shell).
-3.  **[skill-name]/examples/**: Folder for usage patterns and code snippets.
-4.  **[skill-name]/resources/**: Folder for templates, data, and static assets.
-
-## 📝 SKILL.md Requirements
-
-Ensure your `SKILL.md` starts with the following YAML block:
-
+### 2. Mandatory Documentation (SKILL.md)
+Every skill folder must contain a `SKILL.md` file at its root with the following YAML frontmatter:
 ```yaml
 ---
-name: Your Skill Name
-description: A concise, one-sentence summary of the skill's purpose.
+name: Descriptive Skill Name
+description: A clear, one-sentence summary of the skill.
 ---
 ```
 
-## 🚀 Submission Process
-
-1.  **Draft**: Use the `template-skill/` directory as a template.
-2.  **Verify**: Ensure all paths in your documentation are accurate.
-3.  **Clean**: Remove any "zombie code" or redundant comments from your scripts.
-4.  **Commit**: Use a clear commit message (e.g., `Add doc-inline-clean skill`).
+### 3. Registry Inclusion (README.md)
+The root `README.md` is the discovery engine for the Showcase UI. You **must** add your skill to the appropriate section in the root `README.md` using the standard format:
+`- **[skill-name](./category/skill-folder-name)**: Description.`
 
 ---
 
-*“Code is for humans to read, and only incidentally for machines to execute.”*
+## 🛠️ Automated Scaffolding
+To ensure consistency, please use the provided scaffolding script:
+```powershell
+./scaffold.ps1
+```
+This script will create the folder, generate boilerplate documentation, and guide you through the registration process.
+
+---
+*“Consistently clean code is the foundation of collective intelligence.”*

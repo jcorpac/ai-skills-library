@@ -8,4 +8,3 @@ Advanced strategies for managing large skill ecosystems and context.
 - **[meta-agentic-chunking](./meta-agentic-chunking)**: Task decomposition and isolated execution.
 - **[meta-mcp-dynamic-tools](./meta-mcp-dynamic-tools)**: MCP-driven dynamic tool injection.
 - **[meta-recursive-discovery](./meta-recursive-discovery)**: Autonomous self-improvement and discovery.
-- **[template-skill](./template-skill)**: A standardized template for creating new AI skills.

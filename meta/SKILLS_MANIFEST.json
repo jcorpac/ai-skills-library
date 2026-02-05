@@ -31,12 +31,6 @@
                        "description":  "Autonomous self-improvement and discovery.",
                        "name":  "meta-recursive-discovery",
                        "id":  "meta-recursive-discovery"
-                   },
-                   {
-                       "path":  "./template-skill",
-                       "description":  "A standardized template for creating new AI skills.",
-                       "name":  "template-skill",
-                       "id":  "template-skill"
                    }
                ]
 }
