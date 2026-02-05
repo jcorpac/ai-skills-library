@@ -1,0 +1,20 @@
+---
+name: UI Search & Filtering
+description: Implementing fast, client-side search for large documentation sets.
+---
+
+# UI Search & Filtering
+
+With 80+ skills, users need to find exactly what they need in milliseconds.
+
+## Implementation Patterns
+- **Index Generation**: Create a JSON index containing titles, tags, and small snippets of every skill.
+- **Fuzzy Search**: Use a library like `Fuse.js` or `FlexSearch` for tolerant, high-performance querying.
+
+## Interaction Design
+- **Real-time Results**: Trigger search on every keystroke (`input` event).
+- **Result Highlight**: Visually highlight the matching terms in the result cards.
+
+## Best Practices
+- **Keyboard Navigation**: Allow users to focus and navigate search results using arrow keys and Enter.
+- **Zero Results State**: Provide a clear "No skills found" message with suggestions.

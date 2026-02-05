@@ -141,6 +141,14 @@ Production-grade containerization and orchestration.
 - **[ops-docker-security-hardening](./ops-docker-security-hardening)**: Non-root execution and secret management.
 - **[ops-docker-networking-volumes](./ops-docker-networking-volumes)**: Persistent data and service networks.
 
+### 🍱 GitHub Portfolio Showcase
+Presenting your skill library as a professional, searchable documentation site.
+- **[gh-pages-foundations](./gh-pages-foundations)**: Hosting and static routing.
+- **[ui-portfolio-theming](./ui-portfolio-theming)**: Premium design for documentation portfolios.
+- **[js-markdown-rendering](./js-markdown-rendering)**: Dynamic browser-side markdown rendering.
+- **[ui-search-filtering](./ui-search-filtering)**: Fast client-side skill searching.
+- **[gh-actions-static-deploy](./gh-actions-static-deploy)**: Automated CI/CD for portfolios.
+
 ---
 
 ## 🚀 Getting Started
