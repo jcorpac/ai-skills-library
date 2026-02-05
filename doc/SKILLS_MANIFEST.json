@@ -33,10 +33,10 @@
                        "id":  "doc-changelog-keeper"
                    },
                    {
-                       "path":  "./doc-inline-clean",
-                       "description":  "Principles for self-documenting code.",
-                       "name":  "doc-inline-clean",
-                       "id":  "doc-inline-clean"
+                       "path":  "./doc-style-guide",
+                       "description":  "Standards for technical writing and formatting.",
+                       "name":  "doc-style-guide",
+                       "id":  "doc-style-guide"
                    }
                ]
 }

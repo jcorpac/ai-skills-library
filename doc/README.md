@@ -8,4 +8,4 @@ Establish clear communication and maintainable technical lore.
 - **[doc-api-auto](./doc-api-auto)**: Streamlined API documenting strategies.
 - **[doc-knowledge-base](./doc-knowledge-base)**: Internal lore and onboarding guides.
 - **[doc-changelog-keeper](./doc-changelog-keeper)**: Human-readable version history.
-- **[doc-inline-clean](./doc-inline-clean)**: Principles for self-documenting code.
+- **[doc-style-guide](./doc-style-guide)**: Standards for technical writing and formatting.

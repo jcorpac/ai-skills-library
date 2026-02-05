@@ -42,7 +42,7 @@ Establish clear communication and maintainable technical lore.
 - **[doc-api-auto](./doc/doc-api-auto)**: Streamlined API documenting strategies.
 - **[doc-knowledge-base](./doc/doc-knowledge-base)**: Internal lore and onboarding guides.
 - **[doc-changelog-keeper](./doc/doc-changelog-keeper)**: Human-readable version history.
-- **[doc-inline-clean](./doc/doc-inline-clean)**: Principles for self-documenting code.
+- **[doc-style-guide](./doc/doc-style-guide)**: Standards for technical writing and formatting.
 
 ### 🐍 Data Science Suite (Python)
 Specialized patterns for the full data science lifecycle.
@@ -52,7 +52,6 @@ Specialized patterns for the full data science lifecycle.
 - **[ds-model-evaluation](./ds/ds-model-evaluation)**: Accurate validation and reporting.
 - **[ds-experiment-tracking](./ds/ds-experiment-tracking)**: Reproducibility patterns.
 - **[ds-notebook-refactor](./ds/ds-notebook-refactor)**: Transitioning research code to production.
-- **[ds-presentation-storyteller](./ds/ds-presentation-storyteller)**: Crafting narrative-driven data stories.
 
 ### 🐍 Language Excellence (Python)
 Advanced patterns for performance and scalability.
