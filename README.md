@@ -1,6 +1,6 @@
 # 🛠️ AI Skills Repository
 
-A production-ready collection of specialized AI "skills". Each skill is an autonomous package of instructions, patterns, and resources designed to extend an agent's capabilities across various development domains.
+A production-ready collection of specialized AI "skills". Each skill is an atomic skill, each a self-contained instruction set, often accompanied by helper **scripts** and **resources** to accelerate implementation.
 
 ---
 
