@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--bg-color);
-    background-image: 
+    background-image:
         radial-gradient(at 0% 0%, rgba(30, 58, 138, 0.3) 0px, transparent 50%),
         radial-gradient(at 100% 100%, rgba(136, 19, 55, 0.1) 0px, transparent 50%);
     color: var(--text-primary);
@@ -29,7 +29,9 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Outfit', sans-serif;
 }
 
@@ -51,6 +53,7 @@ header {
     font-weight: 700;
     background: linear-gradient(135deg, #fff 0%, #38bdf8 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
@@ -108,7 +111,23 @@ header {
 }
 
 /* Grid System */
-.skills-grid {
+
+
+.skill-category {
+    margin-bottom: 4rem;
+}
+
+.category-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--accent-color);
+    letter-spacing: -0.01em;
+}
+
+.category-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.5rem;
@@ -226,17 +245,38 @@ header {
     color: var(--text-primary);
 }
 
-#content-viewer h1 { margin-bottom: 1.5rem; font-size: 2.5rem; }
-#content-viewer h2 { margin: 2rem 0 1rem; color: var(--accent-color); }
-#content-viewer p { margin-bottom: 1rem; color: #cbd5e1; }
-#content-viewer ul { margin-bottom: 1.5rem; padding-left: 1.5rem; }
-#content-viewer li { margin-bottom: 0.5rem; color: #cbd5e1; }
+#content-viewer h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+#content-viewer h2 {
+    margin: 2rem 0 1rem;
+    color: var(--accent-color);
+}
+
+#content-viewer p {
+    margin-bottom: 1rem;
+    color: #cbd5e1;
+}
+
+#content-viewer ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#content-viewer li {
+    margin-bottom: 0.5rem;
+    color: #cbd5e1;
+}
+
 #content-viewer code {
     background: #334155;
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-size: 0.9em;
 }
+
 #content-viewer pre {
     background: #0f172a;
     padding: 1.5rem;
@@ -248,7 +288,16 @@ header {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .hero-title { font-size: 2.5rem; }
-    .container { padding: 1rem; }
-    .modal-content { padding: 1.5rem; width: 95%; }
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .modal-content {
+        padding: 1.5rem;
+        width: 95%;
+    }
 }

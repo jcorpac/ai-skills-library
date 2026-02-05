@@ -13,20 +13,32 @@ async function init() {
         // Fetch the README to parse the inventory
         const response = await fetch('README.md');
         const text = await response.text();
-        
-        // Simple regex-based parser for our README structure
-        // Looking for rows like "- **[name](./path)**: description"
-        const skillRegex = /- \*\*\[(.*?)\]\(\.\/(.*?)\)\*\*: (.*)/g;
-        let match;
-        
-        while ((match = skillRegex.exec(text)) !== null) {
-            allSkills.push({
-                name: match[1],
-                path: match[2],
-                description: match[3],
-                tags: inferTags(match[2])
-            });
-        }
+
+        // Simple lines parser to capture categories and skills
+        const lines = text.split('\n');
+        let currentCategory = 'General';
+
+        lines.forEach(line => {
+            // Check for category headings: ### Category Name
+            const categoryMatch = line.match(/^### (.*)/);
+            if (categoryMatch) {
+                currentCategory = categoryMatch[1].trim();
+            }
+
+            // Check for skill rows: - **[name](./path)**: description
+            const skillRegex = /- \*\*\[(.*?)\]\(\.\/(.*?)\)\*\*: (.*)/;
+            const skillMatch = line.match(skillRegex);
+
+            if (skillMatch) {
+                allSkills.push({
+                    name: skillMatch[1],
+                    path: skillMatch[2],
+                    description: skillMatch[3],
+                    category: currentCategory,
+                    tags: inferTags(skillMatch[2])
+                });
+            }
+        });
 
         renderSkills(allSkills);
     } catch (err) {
@@ -51,32 +63,53 @@ function inferTags(path) {
 
 function renderSkills(skills) {
     skillsGrid.innerHTML = '';
-    
+
     if (skills.length === 0) {
         skillsGrid.innerHTML = '<div class="no-results">No skills match your search.</div>';
         return;
     }
 
-    skills.forEach(skill => {
-        const card = document.createElement('div');
-        card.className = 'skill-card';
-        card.innerHTML = `
-            <div class="skill-name">${skill.name}</div>
-            <div class="skill-desc">${skill.description}</div>
-            <div class="skill-meta">
-                ${skill.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-            </div>
+    // Group skills by category
+    const grouped = skills.reduce((acc, skill) => {
+        if (!acc[skill.category]) acc[skill.category] = [];
+        acc[skill.category].push(skill);
+        return acc;
+    }, {});
+
+    Object.keys(grouped).forEach(category => {
+        // Create category section
+        const section = document.createElement('section');
+        section.className = 'skill-category';
+        section.innerHTML = `
+            <h2 class="category-title">${category}</h2>
+            <div class="category-grid"></div>
         `;
-        card.onclick = () => openSkill(skill);
-        skillsGrid.appendChild(card);
+
+        const grid = section.querySelector('.category-grid');
+
+        grouped[category].forEach(skill => {
+            const card = document.createElement('div');
+            card.className = 'skill-card';
+            card.innerHTML = `
+                <div class="skill-name">${skill.name}</div>
+                <div class="skill-desc">${skill.description}</div>
+                <div class="skill-meta">
+                    ${skill.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                </div>
+            `;
+            card.onclick = () => openSkill(skill);
+            grid.appendChild(card);
+        });
+
+        skillsGrid.appendChild(section);
     });
 }
 
 // Search Logic
 searchInput.addEventListener('input', (e) => {
     const term = e.target.value.toLowerCase();
-    const filtered = allSkills.filter(s => 
-        s.name.toLowerCase().includes(term) || 
+    const filtered = allSkills.filter(s =>
+        s.name.toLowerCase().includes(term) ||
         s.description.toLowerCase().includes(term) ||
         s.tags.some(t => t.toLowerCase().includes(term))
     );
@@ -87,16 +120,16 @@ searchInput.addEventListener('input', (e) => {
 async function openSkill(skill) {
     modal.classList.add('active');
     modalContent.innerHTML = 'Loading content...';
-    
+
     try {
         const response = await fetch(`${skill.path}/SKILL.md`);
         const text = await response.text();
-        
+
         // Remove YAML frontmatter if present
         const cleanText = text.replace(/^---[\s\S]*?---/, '');
-        
+
         modalContent.innerHTML = marked.parse(cleanText);
-        
+
         // Update URL hash
         window.location.hash = skill.path;
     } catch (err) {
