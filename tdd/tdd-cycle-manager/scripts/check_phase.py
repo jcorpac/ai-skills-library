@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# TDD Cycle Manager - Phase Checker
 import sys
 import subprocess
 
