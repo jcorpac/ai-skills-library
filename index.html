@@ -27,36 +27,63 @@
                     <span class="chevron">▼</span>
                 </summary>
                 <div class="usage-content">
-                    <div class="step-card">
-                        <div class="step-number">1</div>
-                        <div class="step-text">
-                            <h3>Connect</h3>
-                            <p>Clone the library to your machine:
-                                <br><code>git clone https://github.com/jcorpac/ai-skills-library.git</code></p>
+                    <div class="usage-tabs">
+                        <button class="tab-btn active" onclick="showTab('gemini-tab')">Gemini CLI</button>
+                        <button class="tab-btn" onclick="showTab('other-agents-tab')">Other AI Agents</button>
+                    </div>
+
+                    <div id="gemini-tab" class="tab-pane active">
+                        <div class="step-grid">
+                            <div class="step-card">
+                                <div class="step-number">1</div>
+                                <div class="step-text">
+                                    <h3>Connect</h3>
+                                    <p>Clone the library:
+                                        <br><code>git clone https://github.com/jcorpac/ai-skills-library.git</code></p>
+                                </div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">2</div>
+                                <div class="step-text">
+                                    <h3>Install</h3>
+                                    <p>Install to Gemini CLI:
+                                        <br><code>gemini skills install pkg/[id].skill</code></p>
+                                </div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">3</div>
+                                <div class="step-text">
+                                    <h3>Activate</h3>
+                                    <p>Reload session:
+                                        <br><code>/skills reload</code></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="step-card">
-                        <div class="step-number">2</div>
-                        <div class="step-text">
-                            <h3>Install</h3>
-                            <p>Install a skill to your Gemini CLI:
-                                <br><code>gemini skills install pkg/[id].skill --scope user</code></p>
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-number">3</div>
-                        <div class="step-text">
-                            <h3>Activate</h3>
-                            <p>Reload your session to enable the new capability:
-                                <br><code>/skills reload</code></p>
-                        </div>
-                    </div>
-                    <div class="step-card">
-                        <div class="step-number">4</div>
-                        <div class="step-text">
-                            <h3>Integrate</h3>
-                            <p>For tools like Cursor or Windsurf, add the repo to your project context to enable dynamic
-                                discovery via <code>SKILL.md</code> files.</p>
+
+                    <div id="other-agents-tab" class="tab-pane">
+                        <div class="step-grid">
+                            <div class="step-card">
+                                <div class="step-number">IDE</div>
+                                <div class="step-text">
+                                    <h3>Cursor / Windsurf</h3>
+                                    <p>Copy <code>SKILL.md</code> content into <code>.cursorrules</code> or <code>.windsurfrules</code>.</p>
+                                </div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">Web</div>
+                                <div class="step-text">
+                                    <h3>Claude / ChatGPT</h3>
+                                    <p>Upload <code>SKILL.md</code> to Claude Projects or GPT Knowledge bases.</p>
+                                </div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number">Git</div>
+                                <div class="step-text">
+                                    <h3>Copilot</h3>
+                                    <p>Add skill text to <code>.github/copilot-instructions.md</code>.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
