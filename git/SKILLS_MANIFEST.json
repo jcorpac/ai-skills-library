@@ -1,48 +1,48 @@
-{
-  "category": "Git Mastery Suite",
-  "skills": [
-    {
-      "id": "git-atomic-commits",
-      "name": "git-atomic-commits",
-      "path": "./git-atomic-commits",
-      "description": "Small, focused, and reversible changes."
-    },
-    {
-      "id": "git-conventional-naming",
-      "name": "git-conventional-naming",
-      "path": "./git-conventional-naming",
-      "description": "Structured and machine-readable commits."
-    },
-    {
-      "id": "git-branching-flow",
-      "name": "git-branching-flow",
-      "path": "./git-branching-flow",
-      "description": "Collaboration strategies for speed and safety."
-    },
-    {
-      "id": "git-hooks-automation",
-      "name": "git-hooks-automation",
-      "path": "./git-hooks-automation",
-      "description": "Automated pre-commit checks."
-    },
-    {
-      "id": "git-history-polish",
-      "name": "git-history-polish",
-      "path": "./git-history-polish",
-      "description": "Advanced history management with rebase."
-    },
-    {
-      "id": "git-tagging-releases",
-      "name": "git-tagging-releases",
-      "path": "./git-tagging-releases",
-      "description": "Semantic versioning and milestones."
-    },
-    {
-      "id": "git-github-master",
-      "name": "git-github-master",
-      "path": "./git-github-master",
-      "description": "Remote publishing and collaboration."
-    }
-  ],
-  "description": "Professional version control and repository management."
+﻿{
+    "category":  "Git Mastery Suite",
+    "description":  "Professional version control and repository management.",
+    "skills":  [
+                   {
+                       "path":  "./git-atomic-commits",
+                       "description":  "Small, focused, and reversible changes.",
+                       "name":  "git-atomic-commits",
+                       "id":  "git-atomic-commits"
+                   },
+                   {
+                       "path":  "./git-conventional-naming",
+                       "description":  "Structured and machine-readable commits.",
+                       "name":  "git-conventional-naming",
+                       "id":  "git-conventional-naming"
+                   },
+                   {
+                       "path":  "./git-branching-flow",
+                       "description":  "Collaboration strategies for speed and safety.",
+                       "name":  "git-branching-flow",
+                       "id":  "git-branching-flow"
+                   },
+                   {
+                       "path":  "./git-hooks-automation",
+                       "description":  "Automated pre-commit checks.",
+                       "name":  "git-hooks-automation",
+                       "id":  "git-hooks-automation"
+                   },
+                   {
+                       "path":  "./git-history-polish",
+                       "description":  "Advanced history management with rebase.",
+                       "name":  "git-history-polish",
+                       "id":  "git-history-polish"
+                   },
+                   {
+                       "path":  "./git-tagging-releases",
+                       "description":  "Semantic versioning and milestones.",
+                       "name":  "git-tagging-releases",
+                       "id":  "git-tagging-releases"
+                   },
+                   {
+                       "path":  "./git-github-master",
+                       "description":  "Remote publishing and collaboration.",
+                       "name":  "git-github-master",
+                       "id":  "git-github-master"
+                   }
+               ]
 }

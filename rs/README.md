@@ -1,4 +1,4 @@
-# Language Excellence (Rust)
+﻿# Language Excellence (Rust)
 
 Systems programming with safety and high performance.
 

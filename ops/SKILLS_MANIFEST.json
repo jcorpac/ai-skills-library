@@ -1,54 +1,54 @@
-{
-  "category": "Infrastructure & Container Mastery",
-  "skills": [
-    {
-      "id": "ops-github-actions-cicd",
-      "name": "ops-github-actions-cicd",
-      "path": "./ops-github-actions-cicd",
-      "description": "Professional workflow automation."
-    },
-    {
-      "id": "ops-docker-foundations",
-      "name": "ops-docker-foundations",
-      "path": "./ops-docker-foundations",
-      "description": "Container lifecycle and basic patterns."
-    },
-    {
-      "id": "ops-docker-compose-orchestration",
-      "name": "ops-docker-compose-orchestration",
-      "path": "./ops-docker-compose-orchestration",
-      "description": "Multi-container local development."
-    },
-    {
-      "id": "ops-docker-optimization",
-      "name": "ops-docker-optimization",
-      "path": "./ops-docker-optimization",
-      "description": "Multi-stage builds and layer caching."
-    },
-    {
-      "id": "ops-docker-security-hardening",
-      "name": "ops-docker-security-hardening",
-      "path": "./ops-docker-security-hardening",
-      "description": "Non-root execution and secret management."
-    },
-    {
-      "id": "ops-docker-networking-volumes",
-      "name": "ops-docker-networking-volumes",
-      "path": "./ops-docker-networking-volumes",
-      "description": "Persistent data and service networks."
-    },
-    {
-      "id": "gh-pages-foundations",
-      "name": "gh-pages-foundations",
-      "path": "./gh-pages-foundations",
-      "description": "Hosting and static routing."
-    },
-    {
-      "id": "gh-actions-static-deploy",
-      "name": "gh-actions-static-deploy",
-      "path": "./gh-actions-static-deploy",
-      "description": "Automated CI/CD for portfolios."
-    }
-  ],
-  "description": "Production-grade containerization, CI/CD, and orchestration."
+﻿{
+    "category":  "Infrastructure \u0026 Container Mastery",
+    "description":  "Production-grade containerization, CI/CD, and orchestration.",
+    "skills":  [
+                   {
+                       "path":  "./ops-github-actions-cicd",
+                       "description":  "Professional workflow automation.",
+                       "name":  "ops-github-actions-cicd",
+                       "id":  "ops-github-actions-cicd"
+                   },
+                   {
+                       "path":  "./ops-docker-foundations",
+                       "description":  "Container lifecycle and basic patterns.",
+                       "name":  "ops-docker-foundations",
+                       "id":  "ops-docker-foundations"
+                   },
+                   {
+                       "path":  "./ops-docker-compose-orchestration",
+                       "description":  "Multi-container local development.",
+                       "name":  "ops-docker-compose-orchestration",
+                       "id":  "ops-docker-compose-orchestration"
+                   },
+                   {
+                       "path":  "./ops-docker-optimization",
+                       "description":  "Multi-stage builds and layer caching.",
+                       "name":  "ops-docker-optimization",
+                       "id":  "ops-docker-optimization"
+                   },
+                   {
+                       "path":  "./ops-docker-security-hardening",
+                       "description":  "Non-root execution and secret management.",
+                       "name":  "ops-docker-security-hardening",
+                       "id":  "ops-docker-security-hardening"
+                   },
+                   {
+                       "path":  "./ops-docker-networking-volumes",
+                       "description":  "Persistent data and service networks.",
+                       "name":  "ops-docker-networking-volumes",
+                       "id":  "ops-docker-networking-volumes"
+                   },
+                   {
+                       "path":  "./gh-pages-foundations",
+                       "description":  "Hosting and static routing.",
+                       "name":  "gh-pages-foundations",
+                       "id":  "gh-pages-foundations"
+                   },
+                   {
+                       "path":  "./gh-actions-static-deploy",
+                       "description":  "Automated CI/CD for portfolios.",
+                       "name":  "gh-actions-static-deploy",
+                       "id":  "gh-actions-static-deploy"
+                   }
+               ]
 }

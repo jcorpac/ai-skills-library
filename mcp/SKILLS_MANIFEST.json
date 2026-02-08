@@ -1,42 +1,42 @@
-{
-  "category": "MCP Architecture & Development",
-  "skills": [
-    {
-      "id": "mcp-server-foundations",
-      "name": "mcp-server-foundations",
-      "path": "./mcp-server-foundations",
-      "description": "Architecture, transports, and lifecycle."
-    },
-    {
-      "id": "mcp-tool-design",
-      "name": "mcp-tool-design",
-      "path": "./mcp-tool-design",
-      "description": "JSON Schema and error-resilient logic."
-    },
-    {
-      "id": "mcp-fastmcp-patterns",
-      "name": "mcp-fastmcp-patterns",
-      "path": "./mcp-fastmcp-patterns",
-      "description": "Rapid development with FastMCP."
-    },
-    {
-      "id": "mcp-security-sandboxing",
-      "name": "mcp-security-sandboxing",
-      "path": "./mcp-security-sandboxing",
-      "description": "Safe execution and resource isolation."
-    },
-    {
-      "id": "mcp-testing-frameworks",
-      "name": "mcp-testing-frameworks",
-      "path": "./mcp-testing-frameworks",
-      "description": "Automated verification for MCP tools."
-    },
-    {
-      "id": "mcp-deployment-registry",
-      "name": "mcp-deployment-registry",
-      "path": "./mcp-deployment-registry",
-      "description": "UV/Docker packaging and host integration."
-    }
-  ],
-  "description": "Professional engineering for the Model Context Protocol."
+﻿{
+    "category":  "MCP Architecture \u0026 Development",
+    "description":  "Professional engineering for the Model Context Protocol.",
+    "skills":  [
+                   {
+                       "path":  "./mcp-server-foundations",
+                       "description":  "Architecture, transports, and lifecycle.",
+                       "name":  "mcp-server-foundations",
+                       "id":  "mcp-server-foundations"
+                   },
+                   {
+                       "path":  "./mcp-tool-design",
+                       "description":  "JSON Schema and error-resilient logic.",
+                       "name":  "mcp-tool-design",
+                       "id":  "mcp-tool-design"
+                   },
+                   {
+                       "path":  "./mcp-fastmcp-patterns",
+                       "description":  "Rapid development with FastMCP.",
+                       "name":  "mcp-fastmcp-patterns",
+                       "id":  "mcp-fastmcp-patterns"
+                   },
+                   {
+                       "path":  "./mcp-security-sandboxing",
+                       "description":  "Safe execution and resource isolation.",
+                       "name":  "mcp-security-sandboxing",
+                       "id":  "mcp-security-sandboxing"
+                   },
+                   {
+                       "path":  "./mcp-testing-frameworks",
+                       "description":  "Automated verification for MCP tools.",
+                       "name":  "mcp-testing-frameworks",
+                       "id":  "mcp-testing-frameworks"
+                   },
+                   {
+                       "path":  "./mcp-deployment-registry",
+                       "description":  "UV/Docker packaging and host integration.",
+                       "name":  "mcp-deployment-registry",
+                       "id":  "mcp-deployment-registry"
+                   }
+               ]
 }

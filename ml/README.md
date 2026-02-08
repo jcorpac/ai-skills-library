@@ -1,4 +1,4 @@
-# Machine Learning & MLOps
+﻿# Machine Learning & MLOps
 
 Comprehensive methodologies for the ML lifecycle.
 

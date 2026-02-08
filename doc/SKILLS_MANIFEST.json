@@ -1,48 +1,48 @@
-{
-  "category": "Documentation Suite",
-  "skills": [
-    {
-      "id": "doc-readme-master",
-      "name": "doc-readme-master",
-      "path": "./doc-readme-master",
-      "description": "Crafting high-impact project entry points."
-    },
-    {
-      "id": "doc-adr-architect",
-      "name": "doc-adr-architect",
-      "path": "./doc-adr-architect",
-      "description": "Recording architectural decision context."
-    },
-    {
-      "id": "doc-api-auto",
-      "name": "doc-api-auto",
-      "path": "./doc-api-auto",
-      "description": "Streamlined API documenting strategies."
-    },
-    {
-      "id": "doc-knowledge-base",
-      "name": "doc-knowledge-base",
-      "path": "./doc-knowledge-base",
-      "description": "Internal lore and onboarding guides."
-    },
-    {
-      "id": "doc-changelog-keeper",
-      "name": "doc-changelog-keeper",
-      "path": "./doc-changelog-keeper",
-      "description": "Human-readable version history."
-    },
-    {
-      "id": "doc-style-guide",
-      "name": "doc-style-guide",
-      "path": "./doc-style-guide",
-      "description": "Standards for technical writing and formatting."
-    },
-    {
-      "id": "doc-inline-clean",
-      "name": "doc-inline-clean",
-      "path": "./doc-inline-clean",
-      "description": "Principles for self-documenting code."
-    }
-  ],
-  "description": "Establish clear communication and maintainable technical lore."
+﻿{
+    "category":  "Documentation Suite",
+    "description":  "Establish clear communication and maintainable technical lore.",
+    "skills":  [
+                   {
+                       "path":  "./doc-readme-master",
+                       "description":  "Crafting high-impact project entry points.",
+                       "name":  "doc-readme-master",
+                       "id":  "doc-readme-master"
+                   },
+                   {
+                       "path":  "./doc-adr-architect",
+                       "description":  "Recording architectural decision context.",
+                       "name":  "doc-adr-architect",
+                       "id":  "doc-adr-architect"
+                   },
+                   {
+                       "path":  "./doc-api-auto",
+                       "description":  "Streamlined API documenting strategies.",
+                       "name":  "doc-api-auto",
+                       "id":  "doc-api-auto"
+                   },
+                   {
+                       "path":  "./doc-knowledge-base",
+                       "description":  "Internal lore and onboarding guides.",
+                       "name":  "doc-knowledge-base",
+                       "id":  "doc-knowledge-base"
+                   },
+                   {
+                       "path":  "./doc-changelog-keeper",
+                       "description":  "Human-readable version history.",
+                       "name":  "doc-changelog-keeper",
+                       "id":  "doc-changelog-keeper"
+                   },
+                   {
+                       "path":  "./doc-style-guide",
+                       "description":  "Standards for technical writing and formatting.",
+                       "name":  "doc-style-guide",
+                       "id":  "doc-style-guide"
+                   },
+                   {
+                       "path":  "./doc-inline-clean",
+                       "description":  "Principles for self-documenting code.",
+                       "name":  "doc-inline-clean",
+                       "id":  "doc-inline-clean"
+                   }
+               ]
 }

@@ -121,6 +121,7 @@ Mastering production-grade web development with Flask.
 
 ### 🧠 Meta-Skill & Orchestration
 Advanced strategies for managing large skill ecosystems and context.
+- **[skill-author](./meta/skill-author)**: Comprehensive guide and automation for creating and packaging skills.
 - **[meta-skill-routing](./meta/meta-skill-routing)**: Dynamic skill discovery and routing.
 - **[meta-context-budgeting](./meta/meta-context-budgeting)**: Context window management and purging.
 - **[meta-agentic-chunking](./meta/meta-agentic-chunking)**: Task decomposition and isolated execution.

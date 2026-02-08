@@ -1,4 +1,4 @@
-# Full-Stack Flask Mastery
+﻿# Full-Stack Flask Mastery
 
 Mastering production-grade web development with Flask.
 

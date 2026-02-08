@@ -1,4 +1,4 @@
-# Modern Ecosystem Expansion (FastAPI)
+﻿# Modern Ecosystem Expansion (FastAPI)
 
 Type-safe, high-performance API development with Modern Python.
 

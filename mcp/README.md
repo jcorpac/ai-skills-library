@@ -1,4 +1,4 @@
-# MCP Architecture & Development
+﻿# MCP Architecture & Development
 
 Professional engineering for the Model Context Protocol.
 

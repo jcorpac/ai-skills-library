@@ -1,4 +1,4 @@
-# Data Science Suite
+﻿# Data Science Suite
 
 Specialized patterns for the full data science lifecycle, featuring Polars and EDA.
 

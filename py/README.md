@@ -1,4 +1,4 @@
-# Language Excellence (Python)
+﻿# Language Excellence (Python)
 
 Advanced patterns for performance and scalability in Python.
 

@@ -1,36 +1,42 @@
-{
-  "category": "Meta-Skill & Orchestration",
-  "skills": [
-    {
-      "id": "meta-skill-routing",
-      "name": "meta-skill-routing",
-      "path": "./meta-skill-routing",
-      "description": "Dynamic skill discovery and routing."
-    },
-    {
-      "id": "meta-context-budgeting",
-      "name": "meta-context-budgeting",
-      "path": "./meta-context-budgeting",
-      "description": "Context window management and purging."
-    },
-    {
-      "id": "meta-agentic-chunking",
-      "name": "meta-agentic-chunking",
-      "path": "./meta-agentic-chunking",
-      "description": "Task decomposition and isolated execution."
-    },
-    {
-      "id": "meta-mcp-dynamic-tools",
-      "name": "meta-mcp-dynamic-tools",
-      "path": "./meta-mcp-dynamic-tools",
-      "description": "MCP-driven dynamic tool injection."
-    },
-    {
-      "id": "meta-recursive-discovery",
-      "name": "meta-recursive-discovery",
-      "path": "./meta-recursive-discovery",
-      "description": "Autonomous self-improvement and discovery."
-    }
-  ],
-  "description": "Advanced strategies for managing large skill ecosystems and context."
+﻿{
+    "category":  "Meta-Skill \u0026 Orchestration",
+    "description":  "Advanced strategies for managing large skill ecosystems and context.",
+    "skills":  [
+                   {
+                       "path":  "./skill-author",
+                       "description":  "Comprehensive guide and automation for creating and packaging skills.",
+                       "name":  "skill-author",
+                       "id":  "skill-author"
+                   },
+                   {
+                       "path":  "./meta-skill-routing",
+                       "description":  "Dynamic skill discovery and routing.",
+                       "name":  "meta-skill-routing",
+                       "id":  "meta-skill-routing"
+                   },
+                   {
+                       "path":  "./meta-context-budgeting",
+                       "description":  "Context window management and purging.",
+                       "name":  "meta-context-budgeting",
+                       "id":  "meta-context-budgeting"
+                   },
+                   {
+                       "path":  "./meta-agentic-chunking",
+                       "description":  "Task decomposition and isolated execution.",
+                       "name":  "meta-agentic-chunking",
+                       "id":  "meta-agentic-chunking"
+                   },
+                   {
+                       "path":  "./meta-mcp-dynamic-tools",
+                       "description":  "MCP-driven dynamic tool injection.",
+                       "name":  "meta-mcp-dynamic-tools",
+                       "id":  "meta-mcp-dynamic-tools"
+                   },
+                   {
+                       "path":  "./meta-recursive-discovery",
+                       "description":  "Autonomous self-improvement and discovery.",
+                       "name":  "meta-recursive-discovery",
+                       "id":  "meta-recursive-discovery"
+                   }
+               ]
 }

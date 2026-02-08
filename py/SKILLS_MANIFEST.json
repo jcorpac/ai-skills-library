@@ -1,24 +1,24 @@
-{
-  "category": "Language Excellence (Python)",
-  "skills": [
-    {
-      "id": "py-performance-tuning",
-      "name": "py-performance-tuning",
-      "path": "./py-performance-tuning",
-      "description": "Profiling and speed optimization."
-    },
-    {
-      "id": "py-packaging-pro",
-      "name": "py-packaging-pro",
-      "path": "./py-packaging-pro",
-      "description": "Modern project setup and distribution."
-    },
-    {
-      "id": "py-asyncio-flow",
-      "name": "py-asyncio-flow",
-      "path": "./py-asyncio-flow",
-      "description": "Mastering asynchronous concurrency."
-    }
-  ],
-  "description": "Advanced patterns for performance and scalability in Python."
+﻿{
+    "category":  "Language Excellence (Python)",
+    "description":  "Advanced patterns for performance and scalability in Python.",
+    "skills":  [
+                   {
+                       "path":  "./py-performance-tuning",
+                       "description":  "Profiling and speed optimization.",
+                       "name":  "py-performance-tuning",
+                       "id":  "py-performance-tuning"
+                   },
+                   {
+                       "path":  "./py-packaging-pro",
+                       "description":  "Modern project setup and distribution.",
+                       "name":  "py-packaging-pro",
+                       "id":  "py-packaging-pro"
+                   },
+                   {
+                       "path":  "./py-asyncio-flow",
+                       "description":  "Mastering asynchronous concurrency.",
+                       "name":  "py-asyncio-flow",
+                       "id":  "py-asyncio-flow"
+                   }
+               ]
 }

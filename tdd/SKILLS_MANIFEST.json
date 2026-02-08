@@ -1,60 +1,60 @@
-{
-  "category": "Test-Driven Development (TDD) Suite",
-  "skills": [
-    {
-      "id": "tdd-cycle-manager",
-      "name": "tdd-cycle-manager",
-      "path": "./tdd-cycle-manager",
-      "description": "Guides the Red-Green-Refactor loop."
-    },
-    {
-      "id": "tdd-test-generator",
-      "name": "tdd-test-generator",
-      "path": "./tdd-test-generator",
-      "description": "Scaffolds unit tests and edge cases."
-    },
-    {
-      "id": "tdd-refactor-expert",
-      "name": "tdd-refactor-expert",
-      "path": "./tdd-refactor-expert",
-      "description": "Catalog of safe code transformation patterns."
-    },
-    {
-      "id": "tdd-mocking-isolation",
-      "name": "tdd-mocking-isolation",
-      "path": "./tdd-mocking-isolation",
-      "description": "Master dependency isolation."
-    },
-    {
-      "id": "tdd-bdd-gherkin",
-      "name": "tdd-bdd-gherkin",
-      "path": "./tdd-bdd-gherkin",
-      "description": "Connect business requirements to tests."
-    },
-    {
-      "id": "tdd-legacy-rescue",
-      "name": "tdd-legacy-rescue",
-      "path": "./tdd-legacy-rescue",
-      "description": "Strategies for untested legacy systems."
-    },
-    {
-      "id": "tdd-architecture-patterns",
-      "name": "tdd-architecture-patterns",
-      "path": "./tdd-architecture-patterns",
-      "description": "Design for testability."
-    },
-    {
-      "id": "tdd-property-testing",
-      "name": "tdd-property-testing",
-      "path": "./tdd-property-testing",
-      "description": "Generative testing for edge cases."
-    },
-    {
-      "id": "tdd-automation-flow",
-      "name": "tdd-automation-flow",
-      "path": "./tdd-automation-flow",
-      "description": "Feedback loop optimization."
-    }
-  ],
-  "description": "Comprehensive tools for maintaining high code quality through rigorous testing."
+﻿{
+    "category":  "Test-Driven Development (TDD) Suite",
+    "description":  "Comprehensive tools for maintaining high code quality through rigorous testing.",
+    "skills":  [
+                   {
+                       "path":  "./tdd-cycle-manager",
+                       "description":  "Guides the Red-Green-Refactor loop.",
+                       "name":  "tdd-cycle-manager",
+                       "id":  "tdd-cycle-manager"
+                   },
+                   {
+                       "path":  "./tdd-test-generator",
+                       "description":  "Scaffolds unit tests and edge cases.",
+                       "name":  "tdd-test-generator",
+                       "id":  "tdd-test-generator"
+                   },
+                   {
+                       "path":  "./tdd-refactor-expert",
+                       "description":  "Catalog of safe code transformation patterns.",
+                       "name":  "tdd-refactor-expert",
+                       "id":  "tdd-refactor-expert"
+                   },
+                   {
+                       "path":  "./tdd-mocking-isolation",
+                       "description":  "Master dependency isolation.",
+                       "name":  "tdd-mocking-isolation",
+                       "id":  "tdd-mocking-isolation"
+                   },
+                   {
+                       "path":  "./tdd-bdd-gherkin",
+                       "description":  "Connect business requirements to tests.",
+                       "name":  "tdd-bdd-gherkin",
+                       "id":  "tdd-bdd-gherkin"
+                   },
+                   {
+                       "path":  "./tdd-legacy-rescue",
+                       "description":  "Strategies for untested legacy systems.",
+                       "name":  "tdd-legacy-rescue",
+                       "id":  "tdd-legacy-rescue"
+                   },
+                   {
+                       "path":  "./tdd-architecture-patterns",
+                       "description":  "Design for testability.",
+                       "name":  "tdd-architecture-patterns",
+                       "id":  "tdd-architecture-patterns"
+                   },
+                   {
+                       "path":  "./tdd-property-testing",
+                       "description":  "Generative testing for edge cases.",
+                       "name":  "tdd-property-testing",
+                       "id":  "tdd-property-testing"
+                   },
+                   {
+                       "path":  "./tdd-automation-flow",
+                       "description":  "Feedback loop optimization.",
+                       "name":  "tdd-automation-flow",
+                       "id":  "tdd-automation-flow"
+                   }
+               ]
 }
