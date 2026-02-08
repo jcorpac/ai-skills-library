@@ -435,3 +435,31 @@ header {
     font-size: 0.9em;
     color: var(--accent-color);
 }
+/* Installation Box in Modal */
+.install-box {
+    background: #0f172a;
+    border: 1px solid var(--accent-color);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.install-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--accent-color);
+    letter-spacing: 0.05em;
+}
+
+.install-box code {
+    font-size: 1rem !important;
+    background: transparent !important;
+    padding: 0 !important;
+    color: white !important;
+    word-break: break-all;
+}

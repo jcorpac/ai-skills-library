@@ -128,7 +128,16 @@ async function openSkill(skill) {
         // Remove YAML frontmatter if present
         const cleanText = text.replace(/^---[\s\S]*?---/, '');
 
-        modalContent.innerHTML = marked.parse(cleanText);
+        // Create installation snippet
+        const skillId = skill.path.split('/').pop();
+        const installHtml = `
+            <div class="install-box">
+                <div class="install-label">Gemini CLI Install:</div>
+                <code>gemini skills install pkg/${skillId}.skill --scope user</code>
+            </div>
+        `;
+
+        modalContent.innerHTML = installHtml + marked.parse(cleanText);
 
         // Update URL hash
         window.location.hash = skill.path;
