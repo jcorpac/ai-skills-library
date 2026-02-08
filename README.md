@@ -181,18 +181,24 @@ For instructions on adding your own skills, see [CONTRIBUTING.md](./CONTRIBUTING
 
 ---
 
-## ⚡ Vibe Coding Integration
+## ⚡ AI Agent Integration
 
-"Vibe coding" relies on AI agents having high-quality context and modular instructions. To use these skills in your vibe coding projects:
+These skills are designed to be cross-compatible with most modern AI agents.
 
-### 1. Repository-as-Context
-If your agent (e.g., Cursor, Windsurf, or a custom MCP server) supports indexing local repositories, simply point it to this root directory. It will automatically discover the skills based on the `SKILL.md` files.
+### 1. IDE-Based Agents (Cursor, Windsurf, GitHub Copilot)
+- **Cursor**: Copy the content of a `SKILL.md` into your `.cursorrules` file to apply specific expertise to your project.
+- **Windsurf**: Similar to Cursor, append skill instructions to your `.windsurfrules` file.
+- **GitHub Copilot**: Add skill documentation to `.github/copilot-instructions.md` for project-wide guidance.
 
-### 2. Manual Skill Ingestion
-To apply a specific skill to a new project session, copy the content of the relevant `SKILL.md` into your agent's system prompt or project-specific instructions (e.g., `.cursorrules`).
+### 2. Chat-Based Agents (Claude Projects, ChatGPT GPTs)
+- **Claude Projects**: Upload the `SKILL.md` file (and any relevant `.md` files from `references/`) directly to your project's Knowledge base.
+- **ChatGPT GPTs**: Add the skill instructions to the "Instructions" field or upload them as files in the "Knowledge" section of your custom GPT.
 
-### 3. Script Execution
-Many skills (like `tdd-cycle-manager`) include automation scripts in their `scripts/` folder. Ensure your environment has the necessary runtimes (Python, Node) to allow the agent to execute these utilities on your behalf.
+### 3. Repository-as-Context
+If your agent supports indexing local repositories, simply point it to this root directory. It will automatically discover the skills based on the standardized `SKILL.md` files and folder structure.
+
+### 4. Script Execution
+Many skills include automation scripts in their `scripts/` folder. Ensure your environment has the necessary runtimes (Python, Node) to allow the agent to execute these utilities on your behalf.
 
 ---
 

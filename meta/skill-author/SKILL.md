@@ -76,19 +76,57 @@ powershell.exe -File <path-to-skill>/scripts/package.ps1 -SkillPath ./category/s
 
 ### 6. Verification
 
+
+
 - Install the package locally to test:
+
+
 
   ```powershell
 
+
+
   gemini skills install pkg/skill-name.skill --scope workspace
 
+
+
   ```
+
+
 
 - Reload skills in the interactive session: `/skills reload`.
 
 
 
+
+
+
+
+## Cross-Agent Compatibility
+
+
+
+
+
+
+
+While these skills are optimized for Gemini CLI, they can be used with Cursor, Windsurf, Claude, and more.
+
+
+
+- See [agent-compatibility.md](./references/agent-compatibility.md) for specific integration instructions for other AI agents.
+
+
+
+
+
+
+
 ## Repository Standards
+
+
+
+
 
 
 
