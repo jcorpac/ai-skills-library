@@ -1,5 +1,5 @@
 ---
-name: Python Performance Tuning
+name: py-performance-tuning
 description: Advanced techniques for profiling and optimizing Python code for speed and memory.
 ---
 
@@ -23,3 +23,4 @@ Optimization should always follow measurement. This skill focuses on a data-driv
 - `timeit`: For micro-benchmarking snippets.
 - `memory_profiler`: For tracking memory leaks and peaks.
 - `scalene`: A high-performance CPU, GPU, and memory profiler.
+

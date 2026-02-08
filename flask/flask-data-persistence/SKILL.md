@@ -1,5 +1,5 @@
 ---
-name: Flask Data Persistence
+name: flask-data-persistence
 description: Professional database management with SQLAlchemy and Flask-Migrate.
 ---
 
@@ -24,3 +24,4 @@ Never manually edit your database schema. Use migrations.
 ## Best Practices
 - **Transactions**: Ensure atomic updates within a single request context.
 - **Sensitive Data**: Hash passwords before storing using `Werkzeug` or `Passlib`.
+

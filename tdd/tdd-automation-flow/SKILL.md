@@ -1,5 +1,5 @@
 ---
-name: TDD Automation Flow
+name: tdd-automation-flow
 description: Optimizing the developer feedback loop with automated testing triggers and watchers.
 ---
 
@@ -31,3 +31,4 @@ TDD doesn't stop at the local machine. Use Git hooks and CI pipelines to enforce
 - **Pre-commit hooks**: Run linting and fast unit tests before allowing a commit.
 - **PR Gates**: Prevent merging code that doesn't have 100% test pass rate.
 - **Coverage Reports**: Monitor test coverage as a metric for team health (not a target!).
+

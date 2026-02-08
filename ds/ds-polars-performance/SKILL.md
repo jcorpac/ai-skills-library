@@ -1,5 +1,5 @@
 ---
-name: Polars Performance
+name: ds-polars-performance
 description: High-performance data processing using the Rust-based Polars library.
 ---
 
@@ -18,3 +18,4 @@ Polars is a lightning-fast DataFrame library written in Rust, designed for massi
 ## Best Practices
 - **Prefer Expressions**: Avoid using `apply()` or custom Python loops; use built-in Polars expressions for maximum performance.
 - **Type Safety**: Leverage Polars' strict schema enforcement to prevent data quality issues.
+

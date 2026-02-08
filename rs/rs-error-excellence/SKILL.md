@@ -1,5 +1,5 @@
 ---
-name: Rust Error Excellence
+name: rs-error-excellence
 description: Idiomatic patterns for robust, transparent, and recoverable error handling in Rust.
 ---
 
@@ -18,3 +18,4 @@ Always return `Result` for functions that can fail. Use the `?` operator to prop
 - **Context**: Use `.with_context(|| ...)` in Anyhow to add human-readable breadcrumbs to errors.
 - **Avoid Panics**: Use `unwrap()` and `expect()` ONLY in tests or when you can prove an invariant is impossible to break.
 - **Custom Errors**: Define domain-specific error enums for complex logic.
+

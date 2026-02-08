@@ -1,5 +1,5 @@
 ---
-name: ML Supervised Patterns
+name: ml-supervised-patterns
 description: Professional patterns for supervised learning pipelines, including classification and regression.
 ---
 
@@ -21,3 +21,4 @@ Supervised learning is the core of predictive modeling. This skill focuses on bu
 ## Tools
 - `Scikit-Learn`: The industry standard for tabular data.
 - `XGBoost` / `LightGBM`: High-performance gradient boosting.
+

@@ -1,5 +1,5 @@
 ---
-name: Vanilla Premium UI
+name: ui-vanilla-premium
 description: Creating high-end, bespoke user interfaces using vanilla CSS/JS without the bloat of heavy frameworks.
 ---
 
@@ -20,3 +20,4 @@ A "Premium" UI is defined by its attention to detail. This skill focuses on the 
 ## Best Practices
 - **Performance**: Animate only `transform` and `opacity` properties to avoid browser repaints.
 - **Dark Mode**: Design with a dark-first mentality using CSS variables for easy swapping.
+

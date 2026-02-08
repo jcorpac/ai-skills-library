@@ -1,5 +1,5 @@
 ---
-name: Flask Foundations
+name: flask-foundations
 description: Professional application architecture using the Factory Pattern and Blueprints in Flask.
 ---
 
@@ -20,3 +20,4 @@ Organize your application into distinct components (e.g., `auth`, `api`, `main`)
 ## Best Practices
 - **Environment Config**: Use a `Config` class and `python-dotenv` for sensitive keys.
 - **Lifecycle**: Understand `before_request`, `after_request`, and `teardown_appcontext`.
+

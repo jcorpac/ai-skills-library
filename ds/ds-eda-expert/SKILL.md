@@ -1,5 +1,5 @@
 ---
-name: EDA Expert
+name: ds-eda-expert
 description: Systematic Exploratory Data Analysis (EDA) patterns to uncover insights and data quality issues early.
 ---
 
@@ -22,3 +22,4 @@ Exploratory Data Analysis is the critical first step in any data project. This s
 
 ## Usage
 Use the templates in `resources/` to jumpstart a Jupyter notebook EDA session.
+

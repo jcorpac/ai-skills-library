@@ -1,5 +1,5 @@
 ---
-name: Docker Networking & Volumes
+name: ops-docker-networking-volumes
 description: Managing persistent data and complex service-to-service communication.
 ---
 
@@ -18,3 +18,4 @@ Containers are ephemeral; your data shouldn't be.
 ## Best Practices
 - **External Networks**: Avoid using the default "bridge" network for production.
 - **Volume Backups**: Regularly back up persistent volumes.
+

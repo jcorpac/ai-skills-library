@@ -1,5 +1,5 @@
 ---
-name: MCP Deployment & Registry
+name: mcp-deployment-registry
 description: Packaging, distributing, and connecting MCP servers to production environments.
 ---
 
@@ -18,3 +18,4 @@ Making your MCP server available to users and other agents.
 ## Best Practices
 - **Health Checks**: Implement a `/health` endpoint for remote servers.
 - **Versioning**: Tag your Docker images to ensure stable client connections.
+

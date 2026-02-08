@@ -1,5 +1,5 @@
 ---
-name: UI Search & Filtering
+name: ui-search-filtering
 description: Implementing fast, client-side search for large documentation sets.
 ---
 
@@ -18,3 +18,4 @@ With 80+ skills, users need to find exactly what they need in milliseconds.
 ## Best Practices
 - **Keyboard Navigation**: Allow users to focus and navigate search results using arrow keys and Enter.
 - **Zero Results State**: Provide a clear "No skills found" message with suggestions.
+

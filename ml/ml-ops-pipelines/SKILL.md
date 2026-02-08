@@ -1,5 +1,5 @@
 ---
-name: ML Ops Pipelines
+name: ml-ops-pipelines
 description: Orchestrating the end-to-end Machine Learning lifecycle with robust, reproducible pipelines.
 ---
 
@@ -22,3 +22,4 @@ ML is not code; it's code + data. Pipelines ensure that your training and deploy
 ## Best Practices
 - **Versioning**: Version your data AND your code.
 - **Automated Retraining**: Trigger pipelines when data drift is detected.
+

@@ -1,5 +1,5 @@
 ---
-name: MCP Testing Frameworks
+name: mcp-testing-frameworks
 description: Automated testing strategies for verifying MCP server logic and tool integration.
 ---
 
@@ -19,3 +19,4 @@ Testing MCP servers requires verifying both the logic and the protocol adherence
 ## Best Practices
 - **Schema Validation**: Verify that the generated JSON Schema matches expectations.
 - **Edge Cases**: Test tools with empty, invalid, and large inputs.
+

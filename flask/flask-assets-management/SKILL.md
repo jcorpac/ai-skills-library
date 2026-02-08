@@ -1,5 +1,5 @@
 ---
-name: Flask Assets Management
+name: flask-assets-management
 description: Professional pipelines for CSS, JS, and image management in Flask applications.
 ---
 
@@ -19,3 +19,4 @@ Using a modern bundler like **Vite** or **Webpack** alongside Flask.
 ## Best Practices
 - **Cache Busting**: Always append versions or hashes to static URLs in production.
 - **CDNs**: Serve static assets via a CDN (CloudFront, Cloudflare) for production.
+

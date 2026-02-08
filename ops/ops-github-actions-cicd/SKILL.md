@@ -1,5 +1,5 @@
 ---
-name: GitHub Actions CI/CD
+name: ops-github-actions-cicd
 description: Professional automation for testing, linting, and deployment using GitHub Actions.
 ---
 
@@ -22,3 +22,4 @@ Automate your developer workflow directly inside GitHub.
 ## Best Practices
 - **Matrix Builds**: Test across multiple Python versions or OSs simultaneously.
 - **Linters**: Run `ruff` or `flake8` on every PR to maintain code quality.
+

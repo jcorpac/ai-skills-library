@@ -1,5 +1,5 @@
 ---
-name: Git Conventional Naming
+name: git-conventional-naming
 description: Implementing the Conventional Commits specification for structured and machine-readable commit messages.
 ---
 
@@ -27,3 +27,4 @@ Standardizing commit messages makes history searchable and allows for automated 
 
 ## Value
 Automatically generate release notes and version numbers based on the commit history.
+

@@ -1,5 +1,5 @@
 ---
-name: Meta-MCP Dynamic Tools
+name: meta-mcp-dynamic-tools
 description: Using the Model Context Protocol to dynamically manage agent capabilities and context.
 ---
 
@@ -19,3 +19,4 @@ MCP allows for an "App Store" of capabilities that can be loaded on demand.
 ## Best Practices
 - **Tool Descriptions**: Ensure tool descriptions specify *which* skill domains they support.
 - **Permission Scoping**: Restrict MCP tool access to only the resources needed for the current chunk.
+

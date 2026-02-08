@@ -1,5 +1,5 @@
 ---
-name: Docker Security Hardening
+name: ops-docker-security-hardening
 description: Professional strategies for securing containerized applications.
 ---
 
@@ -18,3 +18,4 @@ Containers are not a sandbox by default. You must secure them.
 ## Best Practices
 - **Image Scanning**: Use `docker scout` or `trivy` to identy and fix vulnerabilities.
 - **Resource Limits**: Set CPU and Memory limits to prevent DoS attacks on the host.
+

@@ -1,5 +1,5 @@
 ---
-name: Feature Engineering Studio
+name: ds-feature-engineering
 description: Advanced strategies for creating model-ready features while avoiding data leakage.
 ---
 
@@ -19,3 +19,4 @@ Feature engineering is often where the most significant model performance gains 
 
 ## Scikit-Learn Pipeline Integration
 Implement custom transformers using `BaseEstimator` and `TransformerMixin` for seamless integration into `sklearn.pipeline.Pipeline`.
+

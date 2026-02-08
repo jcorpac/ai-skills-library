@@ -1,5 +1,5 @@
 ---
-name: Presentation Storyteller
+name: ds-presentation-storyteller
 description: Principles for creating narrative-driven, presentation-ready Jupyter notebooks for stakeholders.
 ---
 
@@ -28,3 +28,4 @@ Data science results are only as impactful as they are understood. This skill fo
 ## Best Practices
 - **Captions**: Every chart must have a caption that summarizes the "key takeaway."
 - **Executive Summary**: Always start the notebook with a 1-paragraph TL;DR.
+

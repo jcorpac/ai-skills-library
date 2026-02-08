@@ -1,5 +1,5 @@
 ---
-name: Docker Foundations
+name: ops-docker-foundations
 description: Mastering the container lifecycle and professional Dockerfile creation.
 ---
 
@@ -18,3 +18,4 @@ Containers provide consistent environments across development and production.
 ## Best Practices
 - **Single Responsibility**: One service per container.
 - **.dockerignore**: Exclude `node_modules`, `venv`, and `.git` to keep images small and secure.
+

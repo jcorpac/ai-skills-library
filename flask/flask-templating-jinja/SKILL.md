@@ -1,5 +1,5 @@
 ---
-name: Flask Templating (Jinja2)
+name: flask-templating-jinja
 description: Mastering server-side rendering with Jinja2 layouts, macros, and filters.
 ---
 
@@ -22,3 +22,4 @@ The front-end begins with the server. Jinja2 provides the power to build dynamic
 ## Best Practices
 - **Never Render Raw HTML**: Ensure variables are escaped to prevent XSS.
 - **Logic Placement**: Keep complex calculations in Python, and only use templating for display logic.
+

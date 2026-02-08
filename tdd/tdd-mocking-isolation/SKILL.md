@@ -1,5 +1,5 @@
 ---
-name: Mocking & Dependency Isolation
+name: tdd-mocking-isolation
 description: Techniques for isolating units under test using mocks, stubs, and fakes.
 ---
 
@@ -32,3 +32,4 @@ result = my_function(service)
 assert result == "Jane Doe"
 service.get_user_data.assert_called_once_with(1)
 ```
+

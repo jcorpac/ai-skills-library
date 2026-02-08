@@ -1,5 +1,5 @@
 ---
-name: MCP Security & Sandboxing
+name: mcp-security-sandboxing
 description: Implementing safe tool execution, resource isolation, and access control in MCP servers.
 ---
 
@@ -20,3 +20,4 @@ Allowing an AI to run code or access data is powerful but risky.
 ## Best Practices
 - **Secrets**: Never hardcode API keys; use environment variables or secret managers.
 - **Timeout**: Set strict limits on tool execution time.
+

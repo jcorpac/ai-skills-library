@@ -1,5 +1,5 @@
 ---
-name: Git Branching Flow
+name: git-branching-flow
 description: Choosing and implementing the right collaboration strategy for your team's development speed.
 ---
 
@@ -21,3 +21,4 @@ How your team branches determines how quickly and safely you can release softwar
 - **Short-Lived Branches**: Features should be merged within 1-3 days.
 - **Delete Merged Branches**: Keep the repository clean by removing branches once integrated.
 - **Up-to-Date**: Regularly merge or rebase the target branch into your feature branch to stay current.
+

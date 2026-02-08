@@ -1,5 +1,5 @@
 ---
-name: Legacy Code Rescue
+name: tdd-legacy-rescue
 description: Strategies for bringing legacy code under test and refactoring it safely.
 ---
 
@@ -27,3 +27,4 @@ description: Strategies for bringing legacy code under test and refactoring it s
 3. Write a characterization test (to document current behavior).
 4. Apply your change using TDD.
 5. Refactor with the safety of your new tests.
+

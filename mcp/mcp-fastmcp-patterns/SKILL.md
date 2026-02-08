@@ -1,5 +1,5 @@
 ---
-name: MCP FastMCP Patterns
+name: mcp-fastmcp-patterns
 description: Rapidly building production-grade MCP servers using the FastMCP framework.
 ---
 
@@ -20,3 +20,4 @@ FastMCP is the "FastAPI of MCP." It simplifies tool and resource registration.
 ## Best Practices
 - **Type Safety**: Lean on Pydantic models for complex inputs.
 - **Modularization**: Split large servers into multiple files using routers.
+

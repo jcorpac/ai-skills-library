@@ -1,5 +1,5 @@
 ---
-name: Model Evaluation
+name: ds-model-evaluation
 description: Holistic strategies for evaluating model performance beyond simple accuracy.
 ---
 
@@ -20,3 +20,4 @@ A model is only as good as your measurement of its performance. This skill ensur
 - **K-Fold**: Standard for robustness.
 - **Stratified K-Fold**: Essential for imbalanced classification.
 - **Time-Series Split**: Mandatory for data with a temporal component to avoid looking into the future.
+

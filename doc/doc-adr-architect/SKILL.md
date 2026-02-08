@@ -1,5 +1,5 @@
 ---
-name: ADR Architect
+name: doc-adr-architect
 description: Documenting significant architectural decisions to preserve project context and evolution.
 ---
 
@@ -33,3 +33,4 @@ What are the positive and negative side effects? What trade-offs were made? (e.g
 - **Write them as you decide**: Don't try to reconstruct them months later.
 - **Link them**: Show when one ADR supercedes another.
 - **Keep them concise**: Focus on the rationale, not the entire meeting transcript.
+

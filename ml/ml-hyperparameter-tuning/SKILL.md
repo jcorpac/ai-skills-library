@@ -1,5 +1,5 @@
 ---
-name: ML Hyperparameter Tuning
+name: ml-hyperparameter-tuning
 description: Systematically finding the optimal model configuration to maximize performance.
 ---
 
@@ -18,3 +18,4 @@ Identify which parameters have the most impact (e.g., `n_estimators`, `learning_
 ## Best Practices
 - **Pruning**: Stop poor-performing trials to save time.
 - **Nested Cross-Validation**: To avoid overfitting the hyperparameters themselves.
+

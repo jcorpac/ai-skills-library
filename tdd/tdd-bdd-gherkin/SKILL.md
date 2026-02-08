@@ -1,5 +1,5 @@
 ---
-name: BDD & Gherkin
+name: tdd-bdd-gherkin
 description: Using behavior-driven development and Gherkin syntax to align business goals with technical tests.
 ---
 
@@ -31,3 +31,4 @@ Feature: User Login
 1. **Focus on Outcomes**: Spend more time on the *Then* than the *When*.
 2. **Avoid Technical Details**: Feature files should not mention buttons, IDs, or implementation details.
 3. **Collaborate Early**: Write feature files with the product owner before coding starts.
+

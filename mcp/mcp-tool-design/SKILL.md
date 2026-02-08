@@ -1,5 +1,5 @@
 ---
-name: MCP Tool Design
+name: mcp-tool-design
 description: Engineering robust, self-describing, and error-resilient tools for AI models.
 ---
 
@@ -20,3 +20,4 @@ A tool is only as good as its description. AI models depend on clear `JSON Schem
 ## Best Practices
 - **Schema Evolution**: Maintain backward compatibility.
 - **Context-Awareness**: Use tools to supplement the model's knowledge, not replace its reasoning.
+

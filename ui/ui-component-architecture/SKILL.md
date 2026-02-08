@@ -1,5 +1,5 @@
 ---
-name: UI Component Architecture
+name: ui-component-architecture
 description: A blueprint for building reusable, encapsulated UI components using Vanilla JavaScript.
 ---
 
@@ -24,3 +24,4 @@ components/
 - **Props**: Pass data into components via function arguments.
 - **Events**: Components should communicate with the app by dispatching custom events.
 - **Cleanup**: Provide a way to "destroy" or "unmount" a component to prevent memory leaks.
+

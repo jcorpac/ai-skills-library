@@ -1,5 +1,5 @@
 ---
-name: Accessibility Pro
+name: ui-accessibility-pro
 description: Mastering semantic HTML and ARIA to build inclusive web experiences for everyone.
 ---
 
@@ -21,3 +21,4 @@ Accessibility is not a feature; it is a fundamental requirement of the web. This
 - [ ] **Keyboard Only**: Can you navigate the entire app using only Tab and Space/Enter?
 - [ ] **Screen Reader**: Does the content read in a logical order?
 - [ ] **Zoom**: Does the layout remain functional at 200% zoom?
+

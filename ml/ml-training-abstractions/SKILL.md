@@ -1,5 +1,5 @@
 ---
-name: ML Training Abstractions
+name: ml-training-abstractions
 description: Mastering high-level frameworks like PyTorch Lightning and Keras to simplify ML development.
 ---
 
@@ -20,3 +20,4 @@ Writing training loops from scratch is error-prone. Abstractions allow you to fo
 ## Best Practices
 - **Consistency**: Use these frameworks to ensure reproducible research and production code.
 - **Monitoring**: Always integrate with a logger (e.g., TensorBoard, MLflow).
+

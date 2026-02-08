@@ -1,5 +1,5 @@
 ---
-name: TDD Test Generator
+name: tdd-test-generator
 description: Automatically generates test boilerplate, edge cases, and unit tests based on function specifications.
 ---
 
@@ -17,3 +17,4 @@ This skill focuses on creating robust test suites quickly.
 
 ## Templates
 Check `resources/templates/` for starting points in Python and JavaScript.
+

@@ -1,5 +1,5 @@
 ---
-name: Notebook-to-Production Refactor
+name: ds-notebook-refactor
 description: Bridging the gap between exploratory Jupyter notebooks and production-ready Python modules.
 ---
 
@@ -21,3 +21,4 @@ Jupyter notebooks are great for research but risky for production. This skill he
 ## Best Practices
 - Use a `.ipynb` to `.py` exporter for a head start, but always manually clean the result.
 - Keep your plotting logic separate from your transformation logic.
+

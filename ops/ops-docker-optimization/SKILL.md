@@ -1,5 +1,5 @@
 ---
-name: Docker Optimization
+name: ops-docker-optimization
 description: Techniques for creating tiny, fast, and secure production-grade images.
 ---
 
@@ -17,3 +17,4 @@ Production images should be minimal, fast to pull, and secure.
 ## Best Practices
 - **Alpine & Distroless**: Use the smallest possible OS base.
 - **Cache Mounting**: Use `--mount=type=cache` in BuildKit to persist pip/npm caches across builds.
+

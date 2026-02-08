@@ -1,5 +1,5 @@
 ---
-name: ML NLP Transformers
+name: ml-nlp-transformers
 description: Professional workflows for modern Natural Language Processing using Transformer architectures.
 ---
 
@@ -21,3 +21,4 @@ Transformers changed everything. This skill focuses on the Hugging Face ecosyste
 ## Best Practices
 - **Parameter-Efficient Fine-Tuning (PEFT)**: Using LoRA to adapt large models with minimal resources.
 - **Quantization**: Compressing models for faster inference.
+

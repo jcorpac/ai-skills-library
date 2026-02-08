@@ -1,5 +1,5 @@
 ---
-name: ML Feature Store Basics
+name: ml-feature-store-basics
 description: Decoupling feature engineering from model logic to ensure consistency between training and serving.
 ---
 
@@ -22,3 +22,4 @@ The "Feature Store" is the bridge between data engineering and machine learning.
 ## Best Practices
 - **Point-in-Time Correctness**: Prevent leakage by only joining features as they existed at a specific timestamp.
 - **Reusability**: Shared features across multiple models.
+

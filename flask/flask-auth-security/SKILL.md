@@ -1,5 +1,5 @@
 ---
-name: Flask Auth & Security
+name: flask-auth-security
 description: Implementing professional session-based and token-based authentication.
 ---
 
@@ -24,3 +24,4 @@ Use **Flask-JWT-Extended** for stateless APIs.
 ## Best Practices
 - **Rate Limiting**: Protect authentication endpoints from brute-force attacks.
 - **Principle of Least Privilege**: Use Role-Based Access Control (RBAC).
+

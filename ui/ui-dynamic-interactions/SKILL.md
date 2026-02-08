@@ -1,5 +1,5 @@
 ---
-name: Dynamic Interactions
+name: ui-dynamic-interactions
 description: Crafting engaging animations and transitions that make an interface feel responsive and alive.
 ---
 
@@ -20,3 +20,4 @@ Interactions should provide feedback and delight without being distracting. This
 - **Staggering**: Animate list items one after another for a more polished feel.
 - **Easing**: Avoid `linear` easing. Use `ease-out` for items entering and `ease-in` for items exiting.
 - **Respect Preferences**: Always wrap animations in `@media (prefers-reduced-motion: no-preference)`.
+

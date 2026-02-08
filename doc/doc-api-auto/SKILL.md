@@ -1,5 +1,5 @@
 ---
-name: API Documentation Expert
+name: doc-api-auto
 description: Professional API documentation strategies using docstrings, OpenAPI, and automated generators.
 ---
 
@@ -26,3 +26,4 @@ Use tools to extract documentation directly from your code:
 1. **Explain the Why**: Don't just list parameters; explain *why* a user would call this endpoint.
 2. **Include Examples**: provide sample requests and responses.
 3. **Keep it Synced**: Use CI checks to ensure your documentation matches your actual API implementation.
+

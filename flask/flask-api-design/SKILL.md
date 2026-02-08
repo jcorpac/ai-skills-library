@@ -1,5 +1,5 @@
 ---
-name: Flask API Design
+name: flask-api-design
 description: Building clean, RESTful APIs with Marshmallow for serialization and OpenAPI documentation.
 ---
 
@@ -21,3 +21,4 @@ Use **Flask-Smorest** or **Flasgger** to automatically generate Swagger/OpenAPI 
 ## Best Practices
 - **Status Codes**: Return appropriate codes (e.g., `201 Created`, `404 Not Found`, `422 Unprocessable Entity`).
 - **Versioning**: Prefix routes with `/api/v1/`.
+

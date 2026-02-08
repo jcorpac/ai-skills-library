@@ -1,5 +1,5 @@
 ---
-name: GitHub Actions Static Deploy
+name: gh-actions-static-deploy
 description: Automating the build and deployment of static sites on every push.
 ---
 
@@ -19,3 +19,4 @@ Ensure your showcase is always in sync with your source code.
 ## Best Practices
 - **Custom Domain CNAME**: Ensure your `CNAME` file is included in the build/deployment folder to prevent domain resets.
 - **Build Notifications**: Notify a Slack or Discord channel on successful or failed deployments.
+

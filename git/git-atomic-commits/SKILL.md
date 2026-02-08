@@ -1,5 +1,5 @@
 ---
-name: Git Atomic Commits
+name: git-atomic-commits
 description: Principles for making small, focused, and reversible changes to a repository.
 ---
 
@@ -19,3 +19,4 @@ An "atomic" commit is a single unit of work. It does one thing and does it compl
 ## Value
 - **Simplified Reverts**: If a feature breaks something, you can revert just that commit without losing unrelated work.
 - **Clear Reviews**: Pull requests with atomic commits are much easier for reviewers to follow and verify.
+

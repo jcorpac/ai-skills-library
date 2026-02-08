@@ -1,5 +1,5 @@
 ---
-name: TDD Cycle Manager
+name: tdd-cycle-manager
 description: Guides established workflows through the Red-Green-Refactor cycle of Test-Driven Development.
 ---
 
@@ -26,3 +26,4 @@ This skill helps maintain the discipline of the TDD cycle.
 
 ## Usage
 Use the provided `scripts/check_phase.py` to analyze your current test results and determine your next step.
+

@@ -1,5 +1,5 @@
 ---
-name: JavaScript Markdown Rendering
+name: js-markdown-rendering
 description: Dynamically fetching and rendering markdown content in the browser.
 ---
 
@@ -19,3 +19,4 @@ By rendering markdown in the browser, you can maintain a single `index.html` whi
 ## Best Practices
 - **Routing**: Sync the rendered content with the URL hash (e.g., `#/git-mastery/atomic-commits`).
 - **Escaping**: Ensure untrusted markdown is sanitized if coming from external sources.
+

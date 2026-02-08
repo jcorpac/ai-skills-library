@@ -1,5 +1,5 @@
 ---
-name: MCP Server Foundations
+name: mcp-server-foundations
 description: Understanding the architecture, lifecycle, and transports of the Model Context Protocol (MCP).
 ---
 
@@ -24,3 +24,4 @@ The Model Context Protocol (MCP) is the standard for connecting AI models to ext
 ## Best Practices
 - **Graceful Error Handling**: Returning clear error messages instead of crashing.
 - **Resource Management**: Efficiently closing file handles and network sockets.
+

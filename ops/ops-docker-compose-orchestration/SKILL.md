@@ -1,5 +1,5 @@
 ---
-name: Docker Compose Orchestration
+name: ops-docker-compose-orchestration
 description: Managing multi-container applications and local development environments.
 ---
 
@@ -18,3 +18,4 @@ Docker Compose allows you to define and run multi-container applications using a
 ## Best Practices
 - **Healthchecks**: Ensure dependent services (like the DB) are ready before the app starts.
 - **Named Volumes**: Use volumes for persistent data (PostgreSQL, Redis).
+

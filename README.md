@@ -154,6 +154,24 @@ Presenting your skill library as a professional, searchable documentation site.
 
 ## 🚀 Getting Started
 
+### 1. Installation & Packaging
+All skills in this repository have been standardized and packaged into a central directory for easy installation.
+
+* **Standardized Metadata**: Every skill's `SKILL.md` uses a hyphen-cased `name` field (e.g., `name: doc-readme-master`) that matches its directory name for perfect validation.
+* **Packaged Bundles**: You can find pre-built `.skill` bundles in the `pkg/` directory.
+
+**To install a skill:**
+```bash
+gemini skills install pkg/[skill-name].skill --scope user
+```
+
+**To activate skills:**
+After installation, run the following command in your interactive Gemini CLI session:
+```bash
+/skills reload
+```
+
+### 2. Manual Use
 1. **Browse**: Explore the subdirectories above to find a skill relevant to your task.
 2. **Apply**: Read the `SKILL.md` within a specific directory to understand the methodology.
 3. **Use**: Leverage the scripts and templates in the `scripts/` and `resources/` folders.

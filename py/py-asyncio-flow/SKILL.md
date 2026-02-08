@@ -1,5 +1,5 @@
 ---
-name: Python AsyncIO Flow
+name: py-asyncio-flow
 description: Mastering asynchronous programming patterns for high-concurrency Python applications.
 ---
 
@@ -20,3 +20,4 @@ Use `run_in_executor()` for CPU-bound or blocking I/O (like standard `requests`)
 - **Timeouts**: Always use `asyncio.wait_for()` to prevent hung tasks.
 - **Graceful Shutdown**: Handle `CancelledError` for clean exits.
 - **Context Managers**: Use `async with` for resources like database connections.
+

@@ -1,5 +1,5 @@
 ---
-name: ML Unsupervised Clustering
+name: ml-unsupervised-clustering
 description: Discovering patterns in unlabeled data using clustering and dimensionality reduction.
 ---
 
@@ -20,3 +20,4 @@ Since there are no labels, we use:
 ## Best Practices
 - **Feature Scaling**: Essential for distance-based algorithms like K-Means.
 - **Interpretablity**: Plot your results (e.g., using t-SNE or UMAP for high-dimensional data).
+

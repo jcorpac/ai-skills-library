@@ -1,5 +1,5 @@
 ---
-name: Responsive Grids
+name: ui-responsive-grids
 description: Advanced CSS Grid and Flexbox techniques for layouts that adapt seamlessly to any device.
 ---
 
@@ -20,3 +20,4 @@ A layout should be fluid, not just "breakpoint-dependent." This skill explores t
 ## The "Modern" Breakpoint
 Instead of hardcoding device widths, use `minmax()` and `clamp()` to create truly fluid typography and layouts.
 `width: clamp(300px, 50%, 800px);`
+

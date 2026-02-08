@@ -1,5 +1,5 @@
 ---
-name: Meta-Agentic Chunking
+name: meta-agentic-chunking
 description: Breaking complex tasks into discrete sub-steps with isolated context for maximum precision.
 ---
 
@@ -19,3 +19,4 @@ Complex tasks often fail because the model tries to handle too much complexity a
 ## Best Practices
 - **Clear Boundaries**: Use `task_boundary` tools to signify the switch between chunks.
 - **State Persistence**: Keep a "Source of Truth" document (e.g., a `plan.md`) that tracks the results of all chunks.
+

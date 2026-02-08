@@ -1,5 +1,5 @@
 ---
-name: Rust Memory Safety
+name: rs-memory-safety
 description: Deep dive into Rust's core promise: memory safety without a garbage collector via ownership and lifetimes.
 ---
 
@@ -23,3 +23,4 @@ Rust's borrow checker is a strict but fair mentor. This skill codifies the patte
 - Prefer borrowing over cloning where possible.
 - Use `Struct` lifetimes (`'a`) only when the struct doesn't own its data.
 - Avoid `unsafe` unless performing FFI or low-level optimizations.
+

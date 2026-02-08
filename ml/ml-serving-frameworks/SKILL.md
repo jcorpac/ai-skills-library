@@ -1,5 +1,5 @@
 ---
-name: ML Serving Frameworks
+name: ml-serving-frameworks
 description: Deploying models as high-performance, scalable microservices using specialized serving frameworks.
 ---
 
@@ -20,3 +20,4 @@ Moving a model from a notebook to production requires more than just an API endp
 ## Best Practices
 - **Inference Optimization**: Use ONNX or TensorRT to accelerate predictions.
 - **Monitoring**: Track latency, throughput, and system health (CPU/Memory).
+

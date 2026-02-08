@@ -1,5 +1,5 @@
 ---
-name: Changelog Keeper
+name: doc-changelog-keeper
 description: Maintaining human-readable, professional version histories using "Keep A Changelog" principles.
 ---
 
@@ -24,3 +24,4 @@ A changelog is a curated, chronologically ordered list of notable changes for ea
 - **Don't use git logs**: Git logs are noisy and contain implementation details that users don't care about.
 - **Update with every release**: Make it a part of your release checklist.
 - **SemVer alignment**: Ensure your changelog reflects your semantic versioning.
+

@@ -1,5 +1,5 @@
 ---
-name: README Master
+name: doc-readme-master
 description: Guidelines and templates for crafting high-impact project READMEs that ensure great first impressions.
 ---
 
@@ -34,3 +34,4 @@ A README is the "front door" of your project. It should tell users exactly what 
 - **Use Visuals**: Screenshots, terminal recordings, and diagrams (Mermaid) make a README stand out.
 - **Keep it Updated**: A stale README is worse than no README.
 - **Provide Copy-Pasteable Blocks**: Make it easy for users to get started.
+

@@ -1,5 +1,5 @@
 ---
-name: Git History Polish
+name: git-history-polish
 description: Advanced techniques for cleaning up and organizing your local history before pushing to a shared repository.
 ---
 
@@ -18,3 +18,4 @@ Your local history is your "draft." Before you push to a shared repository, you 
 
 ## Value
 A clean history makes it easy for future maintainers (including yourself) to understand *why* changes were made without wading through "WIP" noise.
+

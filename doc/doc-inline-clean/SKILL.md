@@ -1,5 +1,5 @@
 ---
-name: Inline Documentation & Clean Code
+name: doc-inline-clean
 description: Guidelines for writing self-documenting code and knowing when (and how) to use comments.
 ---
 
@@ -26,3 +26,4 @@ The best documentation is code that reveals its intent without comments:
 
 ## Summary
 If you feel the need to write a comment explaining *how* something works, consider refactoring the code to be clearer instead.
+

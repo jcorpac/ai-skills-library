@@ -1,5 +1,5 @@
 ---
-name: Git Tagging & Releases
+name: git-tagging-releases
 description: Managing software versions and releases using Semantic Versioning (SemVer) and Git tags.
 ---
 
@@ -26,3 +26,4 @@ Use tools like `standard-version` or `semantic-release` to:
 
 ## Value
 Provides clear milestones for deployment and allows users to depend on specific versions of your software.
+

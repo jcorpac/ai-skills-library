@@ -1,5 +1,5 @@
 ---
-name: Meta-Recursive Discovery
+name: meta-recursive-discovery
 description: Enabling agents to autonomously search for and adopt new specialized skills.
 ---
 
@@ -18,3 +18,4 @@ An agent should know what it doesn't know and where to find the answers.
 ## Best Practices
 - **Documentation Hygiene**: Maintaining a clean index so discovery remains fast.
 - **Verification**: Always cross-reference discovered skills with established best practices (e.g., ADRs).
+

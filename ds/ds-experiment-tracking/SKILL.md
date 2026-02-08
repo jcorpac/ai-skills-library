@@ -1,5 +1,5 @@
 ---
-name: Experiment Tracking
+name: ds-experiment-tracking
 description: Patterns for maintaining reproducibility in machine learning experiments.
 ---
 
@@ -20,3 +20,4 @@ The goal of experiment tracking is to be able to recreate any model you've built
 
 ## Implementation Pattern
 Always use a centralized dictionary or YAML file to store your experiment config before running your training script.
+

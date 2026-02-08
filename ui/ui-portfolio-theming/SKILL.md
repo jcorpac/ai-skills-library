@@ -1,5 +1,5 @@
 ---
-name: UI Portfolio Theming
+name: ui-portfolio-theming
 description: Designing premium, high-readability documentation and portfolio themes.
 ---
 
@@ -18,3 +18,4 @@ A skill library should feel premium, focusing on typography, layout, and visual 
 ## Best Practices
 - **Dark Mode Support**: Always implement a cohesive dark theme.
 - **Responsive Hierarchy**: Ensure complex documentation remains readable on mobile devices.
+

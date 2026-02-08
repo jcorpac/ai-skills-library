@@ -1,5 +1,5 @@
 ---
-name: GitHub Pages Foundations
+name: gh-pages-foundations
 description: Configuring and managing static hosting for documentation and portfolios.
 ---
 
@@ -18,3 +18,4 @@ GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScri
 ## Best Practices
 - **HTTPS Enforcement**: Always enable "Enforce HTTPS" in repository settings.
 - **Minimal Dependencies**: Use as few external assets as possible to ensure fast loading and high compatibility.
+

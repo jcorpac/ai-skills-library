@@ -1,5 +1,5 @@
 ---
-name: Data Wrangling
+name: ds-data-wrangling
 description: Professional data cleaning, transformation, and pipeline optimization patterns using Pandas.
 ---
 
@@ -25,3 +25,4 @@ Data cleaning often takes 80% of the time. This skill provides a structured appr
 ## Best Practices
 - **Method Chaining**: Use `.pipe()` and method chaining in Pandas for more readable code.
 - **No Side Effects**: Always return a copy of the dataframe; don't modify in-place if possible.
+

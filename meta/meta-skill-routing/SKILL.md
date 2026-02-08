@@ -1,5 +1,5 @@
 ---
-name: Meta-Skill Routing
+name: meta-skill-routing
 description: Strategies for dynamic skill discovery to minimize context overhead.
 ---
 
@@ -18,3 +18,4 @@ When a library has dozens of skills, you cannot load them all. You must "route" 
 ## Best Practices
 - **Atomic Loading**: Avoid "just in case" loading. Only load a skill when you are about to perform an action related to it.
 - **Reference Over Inclusion**: Link to skills in documentation instead of copying their content.
+

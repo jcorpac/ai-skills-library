@@ -1,5 +1,5 @@
 ---
-name: Flask Forms & Validation
+name: flask-forms-validation
 description: Securely handling user input using Flask-WTF and robust validation patterns.
 ---
 
@@ -20,3 +20,4 @@ Use `FileField` and `FileRequired` with `secure_filename()` to safely handle use
 ## Best Practices
 - **Feedback**: Display clear error messages next to invalid fields using `form.errors`.
 - **POST/Redirect/GET Pattern**: Always redirect after a successful form submission to prevent duplicate data.
+

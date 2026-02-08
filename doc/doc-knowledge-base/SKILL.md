@@ -1,5 +1,5 @@
 ---
-name: Knowledge Base Architect
+name: doc-knowledge-base
 description: Guidelines for building and maintaining internal project lore, wikis, and onboarding guides.
 ---
 
@@ -23,3 +23,4 @@ A knowledge base is where the "tribal knowledge" of a project is recorded and or
 - **Searchable**: Use tags and descriptive titles.
 - **Accessible**: Place it in the repo (as a `docs/` folder) or a linked Wiki.
 - **Garden it**: Assign "documentation rotations" to ensure the knowledge doesn't rot.
+

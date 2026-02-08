@@ -1,5 +1,5 @@
 ---
-name: TDD Architecture Patterns
+name: tdd-architecture-patterns
 description: Designing testable software systems using established architectural patterns.
 ---
 
@@ -29,3 +29,4 @@ Software architecture should enable testing, not hinder it. These patterns ensur
 - **Avoid Global State**: It makes tests non-deterministic and hard to run in parallel.
 - **Keep Logic Pure**: Prefer stateless functions where possible; they are the easiest to test.
 - **Test-First Design**: If a feature is hard to test, it usually means the architecture is too tightly coupled.
+

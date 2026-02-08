@@ -1,5 +1,5 @@
 ---
-name: Git Hooks Automation
+name: git-hooks-automation
 description: Using client-side Git hooks to automate testing and linting before code is shared.
 ---
 
@@ -19,3 +19,4 @@ Git hooks are scripts that run automatically during specific stages of the Git w
 ## Best Practices
 - **Keep them Fast**: Hooks should run in seconds. If a test suite takes minutes, move it to the CI server.
 - **Standardized**: Share hook configurations in the repository so everyone on the team has the same checks.
+

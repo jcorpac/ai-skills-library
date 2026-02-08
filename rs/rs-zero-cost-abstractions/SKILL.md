@@ -1,5 +1,5 @@
 ---
-name: Rust Zero-Cost Abstractions
+name: rs-zero-cost-abstractions
 description: Leveraging Rust's advanced type system to build powerful abstractions without runtime overhead.
 ---
 
@@ -19,3 +19,4 @@ description: Leveraging Rust's advanced type system to build powerful abstractio
 
 ## Value
 These abstractions allow for "Fearless Refactoring" because the compiler enforces your design constraints strictly.
+

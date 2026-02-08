@@ -1,5 +1,5 @@
 ---
-name: JS Modular Patterns
+name: ui-js-modular-patterns
 description: Scalable, maintainable, and framework-agnostic JavaScript logic for modern web applications.
 ---
 
@@ -20,3 +20,4 @@ Organized JavaScript is the foundation of a predictable presentation layer. This
 - **No Globals**: Keep everything inside modules or IIFEs.
 - **Naming**: Functions should be verbs (`getData`, `updateUI`).
 - **Composition**: Prefer small, single-purpose functions over large monoliths.
+

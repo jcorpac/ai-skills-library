@@ -1,5 +1,5 @@
 ---
-name: Property-Based Testing
+name: tdd-property-testing
 description: Using generative testing to explore large input spaces and find obscure bugs.
 ---
 
@@ -35,3 +35,4 @@ def test_add_commutative(a, b):
 - Encoders/Decoders.
 - Data transformation pipelines.
 - Sorting or searching algorithms.
+

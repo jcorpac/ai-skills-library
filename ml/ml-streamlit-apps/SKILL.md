@@ -1,5 +1,5 @@
 ---
-name: Streamlit ML Apps
+name: ml-streamlit-apps
 description: Rapidly building and deploying interactive machine learning dashboards.
 ---
 
@@ -21,3 +21,4 @@ Streamlit turns data scripts into shareable web apps in minutes. No front-end ex
 ## Best Practices
 - **UI Design**: Keep it simple. Use `st.markdown` for rich explanations.
 - **Feedback**: Use `st.spinner` or `st.progress` for long-running tasks.
+

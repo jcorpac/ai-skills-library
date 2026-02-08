@@ -1,5 +1,5 @@
 ---
-name: Meta-Context Budgeting
+name: meta-context-budgeting
 description: Techniques for managing the context window limit in long-running AI agents.
 ---
 
@@ -18,3 +18,4 @@ AI models have a "budget" (the context window). Every token you use leaves less 
 
 ## Best Practices
 - **Clean State**: Occasionally starting a fresh session and only carrying over the "Essential State" (ADRs, current plan, critical constraints).
+

@@ -1,5 +1,5 @@
 ---
-name: ML Experiment Tracking Pro
+name: ml-experiment-tracking-pro
 description: Rigorous tracking of parameters, metrics, and artifacts for reproducible machine learning.
 ---
 
@@ -20,3 +20,4 @@ ML development is non-linear. Tracking every variant is essential for finding th
 - **Auto-Logging**: Use `mlflow.autolog()` for effortless tracking in supported frameworks.
 - **Tagging**: Use tags to mark "Production Ready" or "Baseline" models.
 - **Nesting**: Use nested runs for hyperparameter tuning trials.
+

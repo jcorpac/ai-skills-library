@@ -1,5 +1,5 @@
 ---
-name: FastAPI Modern Development
+name: api-fastapi-modern
 description: Building high-performance, type-safe APIs with Python 3.10+ and Pydantic.
 ---
 
@@ -18,3 +18,4 @@ FastAPI is the standard for modern Python APIs, offering high performance (compa
 ## Best Practices
 - **Strict Typing**: Use Python 3.10+ union types (`int | None`) and `Annotated` for cleaner dependencies.
 - **Error Handling**: Use `HTTPException` with consistent JSON structures.
+

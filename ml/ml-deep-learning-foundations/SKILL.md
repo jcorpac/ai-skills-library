@@ -1,5 +1,5 @@
 ---
-name: ML Deep Learning Foundations
+name: ml-deep-learning-foundations
 description: Building and training neural networks using modern deep learning frameworks.
 ---
 
@@ -20,3 +20,4 @@ Deep learning powers complex vision and sequence tasks.
 ## Frameworks
 - **PyTorch**: Researcher favorite, highly dynamic.
 - **TensorFlow / Keras**: Mature ecosystem, production-ready.
+

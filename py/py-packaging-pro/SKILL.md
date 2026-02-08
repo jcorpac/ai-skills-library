@@ -1,5 +1,5 @@
 ---
-name: Python Packaging Pro
+name: py-packaging-pro
 description: Modern standards for professional Python project configuration, dependency management, and distribution.
 ---
 
@@ -27,3 +27,4 @@ project/
 - **Explicit Dependencies**: Separate `main` and `dev` dependencies.
 - **Type Checking**: Include `mypy` in your CI pipeline.
 - **versioning**: Follow Semantic Versioning (SemVer).
+

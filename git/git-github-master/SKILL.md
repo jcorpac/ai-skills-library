@@ -1,5 +1,5 @@
 ---
-name: GitHub Mastery
+name: git-github-master
 description: Professional strategies for publishing, collaborating, and managing repositories on GitHub.
 ---
 
@@ -34,3 +34,4 @@ The official CLI tool for managing GitHub from your terminal.
 - **README**: Every repo needs a professional README.
 - **LICENSE**: Choose an appropriate license (MIT, Apache 2.0).
 - **Security**: Never commit secrets or API keys (use `.gitignore`).
+

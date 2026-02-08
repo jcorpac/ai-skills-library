@@ -1,5 +1,5 @@
 ---
-name: TDD Refactor Expert
+name: tdd-refactor-expert
 description: Guidance and checklists for the Refactor phase of TDD, ensuring clean code without breaking tests.
 ---
 
@@ -25,3 +25,4 @@ Refactoring is about improving the design of existing code without changing its 
 2. Apply **one** small refactoring.
 3. Run all tests again (Should still be Green).
 4. Repeat.
+

@@ -1,5 +1,5 @@
 ---
-name: Flask Testing Patterns
+name: flask-testing-patterns
 description: Rigorous testing of Flask applications using Pytest and professional mocking strategies.
 ---
 
@@ -22,3 +22,4 @@ Use `app.test_client()` to simulate requests without running a live server.
 ## Best Practices
 - **Isolated Databases**: Always use an in-memory database (e.g., SQLite `:memory:`) for tests to ensure speed and isolation.
 - **Coverage**: Use `pytest-cov` to identify untested execution paths.
+
