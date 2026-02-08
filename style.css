@@ -478,6 +478,7 @@ header {
     font-size: 0.9em;
     color: var(--accent-color);
 }
+
 /* Installation Box in Modal */
 .install-box {
     background: #0f172a;
@@ -505,4 +506,31 @@ header {
     padding: 0 !important;
     color: white !important;
     word-break: break-all;
+}
+
+/* Error Reporting */
+.error-box {
+    grid-column: 1 / -1;
+    background: rgba(220, 38, 38, 0.1);
+    border: 1px solid #ef4444;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    margin: 2rem 0;
+}
+
+.error-box h3 {
+    color: #f87171;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.error-box p {
+    color: var(--text-secondary);
+    font-family: monospace;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
 }

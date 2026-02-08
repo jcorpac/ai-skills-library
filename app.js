@@ -43,7 +43,12 @@ async function init() {
         renderSkills(allSkills);
     } catch (err) {
         console.error('Failed to load skills:', err);
-        skillsGrid.innerHTML = '<div class="error">Failed to load skills library.</div>';
+        skillsGrid.innerHTML = `
+            <div class="error-box">
+                <h3>Failed to load skills library</h3>
+                <p>${err.message}</p>
+            </div>
+        `;
     }
 }
 
