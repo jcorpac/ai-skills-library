@@ -133,6 +133,7 @@ High-performance tools for modern data science and API development.
 - **[ds-polars-performance](./ds/ds-polars-performance)**: Lightning-fast DataFrames with Polars.
 - **[ml-streamlit-apps](./ml/ml-streamlit-apps)**: Rapid interactive ML dashboarding.
 - **[api-fastapi-modern](./api/api-fastapi-modern)**: Type-safe, high-performance APIs.
+- **[gemini-api-dev](./api/gemini-api-dev)**: *Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).
 - **[ops-github-actions-cicd](./ops/ops-github-actions-cicd)**: Professional workflow automation.
 
 ### 🐳 Docker & Container Mastery
