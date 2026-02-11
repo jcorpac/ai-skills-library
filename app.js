@@ -97,7 +97,7 @@ function renderSkills(skills) {
             card.className = 'skill-card';
             card.innerHTML = `
                 <div class="skill-name">${skill.name}</div>
-                <div class="skill-desc">${skill.description}</div>
+                <div class="skill-desc">${typeof marked.parseInline === 'function' ? marked.parseInline(skill.description) : marked.parse(skill.description).replace(/^<p>|<\/p>\n?$/g, '')}</div>
                 <div class="skill-meta">
                     ${skill.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                 </div>
