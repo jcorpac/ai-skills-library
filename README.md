@@ -127,6 +127,7 @@ Advanced strategies for managing large skill ecosystems and context.
 - **[meta-agentic-chunking](./meta/meta-agentic-chunking)**: Task decomposition and isolated execution.
 - **[meta-mcp-dynamic-tools](./meta/meta-mcp-dynamic-tools)**: MCP-driven dynamic tool injection.
 - **[meta-recursive-discovery](./meta/meta-recursive-discovery)**: Autonomous self-improvement and discovery.
+- **[meta-skill-importer](./meta/meta-skill-importer)**: Automated workflows for importing external skills from Git repositories.
 
 ### 🚀 Modern Ecosystem Expansion
 High-performance tools for modern data science and API development.
