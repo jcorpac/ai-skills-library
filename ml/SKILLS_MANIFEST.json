@@ -1,72 +1,72 @@
-﻿{
-    "category":  "Machine Learning \u0026 MLOps",
-    "description":  "Comprehensive methodologies for the ML lifecycle.",
-    "skills":  [
-                   {
-                       "path":  "./ml-supervised-patterns",
-                       "description":  "Classification and Regression pipelines.",
-                       "name":  "ml-supervised-patterns",
-                       "id":  "ml-supervised-patterns"
-                   },
-                   {
-                       "path":  "./ml-unsupervised-clustering",
-                       "description":  "Pattern discovery and PCA.",
-                       "name":  "ml-unsupervised-clustering",
-                       "id":  "ml-unsupervised-clustering"
-                   },
-                   {
-                       "path":  "./ml-hyperparameter-tuning",
-                       "description":  "Professional optimization with Optuna.",
-                       "name":  "ml-hyperparameter-tuning",
-                       "id":  "ml-hyperparameter-tuning"
-                   },
-                   {
-                       "path":  "./ml-deep-learning-foundations",
-                       "description":  "Neural nets and Transfer Learning.",
-                       "name":  "ml-deep-learning-foundations",
-                       "id":  "ml-deep-learning-foundations"
-                   },
-                   {
-                       "path":  "./ml-nlp-transformers",
-                       "description":  "Modern NLP and Hugging Face.",
-                       "name":  "ml-nlp-transformers",
-                       "id":  "ml-nlp-transformers"
-                   },
-                   {
-                       "path":  "./ml-training-abstractions",
-                       "description":  "PyTorch Lightning and Keras patterns.",
-                       "name":  "ml-training-abstractions",
-                       "id":  "ml-training-abstractions"
-                   },
-                   {
-                       "path":  "./ml-experiment-tracking-pro",
-                       "description":  "Rigorous logging with MLflow/W\u0026B.",
-                       "name":  "ml-experiment-tracking-pro",
-                       "id":  "ml-experiment-tracking-pro"
-                   },
-                   {
-                       "path":  "./ml-serving-frameworks",
-                       "description":  "Scalable serving with BentoML/Ray.",
-                       "name":  "ml-serving-frameworks",
-                       "id":  "ml-serving-frameworks"
-                   },
-                   {
-                       "path":  "./ml-feature-store-basics",
-                       "description":  "Feature management with Feast.",
-                       "name":  "ml-feature-store-basics",
-                       "id":  "ml-feature-store-basics"
-                   },
-                   {
-                       "path":  "./ml-ops-pipelines",
-                       "description":  "Lifecycle orchestration with ZenML/Kubeflow.",
-                       "name":  "ml-ops-pipelines",
-                       "id":  "ml-ops-pipelines"
-                   },
-                   {
-                       "path":  "./ml-streamlit-apps",
-                       "description":  "Rapid interactive ML dashboarding.",
-                       "name":  "ml-streamlit-apps",
-                       "id":  "ml-streamlit-apps"
-                   }
-               ]
+{
+  "skills": [
+    {
+      "id": "ml-deep-learning-foundations",
+      "name": "ml-deep-learning-foundations",
+      "description": "Building and training neural networks using modern deep learning frameworks.",
+      "path": "./ml-deep-learning-foundations"
+    },
+    {
+      "id": "ml-experiment-tracking-pro",
+      "name": "ml-experiment-tracking-pro",
+      "description": "Rigorous tracking of parameters, metrics, and artifacts for reproducible machine learning.",
+      "path": "./ml-experiment-tracking-pro"
+    },
+    {
+      "id": "ml-feature-store-basics",
+      "name": "ml-feature-store-basics",
+      "description": "Decoupling feature engineering from model logic to ensure consistency between training and serving.",
+      "path": "./ml-feature-store-basics"
+    },
+    {
+      "id": "ml-hyperparameter-tuning",
+      "name": "ml-hyperparameter-tuning",
+      "description": "Systematically finding the optimal model configuration to maximize performance.",
+      "path": "./ml-hyperparameter-tuning"
+    },
+    {
+      "id": "ml-nlp-transformers",
+      "name": "ml-nlp-transformers",
+      "description": "Professional workflows for modern Natural Language Processing using Transformer architectures.",
+      "path": "./ml-nlp-transformers"
+    },
+    {
+      "id": "ml-ops-pipelines",
+      "name": "ml-ops-pipelines",
+      "description": "Orchestrating the end-to-end Machine Learning lifecycle with robust, reproducible pipelines.",
+      "path": "./ml-ops-pipelines"
+    },
+    {
+      "id": "ml-serving-frameworks",
+      "name": "ml-serving-frameworks",
+      "description": "Deploying models as high-performance, scalable microservices using specialized serving frameworks.",
+      "path": "./ml-serving-frameworks"
+    },
+    {
+      "id": "ml-streamlit-apps",
+      "name": "ml-streamlit-apps",
+      "description": "Rapidly building and deploying interactive machine learning dashboards.",
+      "path": "./ml-streamlit-apps"
+    },
+    {
+      "id": "ml-supervised-patterns",
+      "name": "ml-supervised-patterns",
+      "description": "Professional patterns for supervised learning pipelines, including classification and regression.",
+      "path": "./ml-supervised-patterns"
+    },
+    {
+      "id": "ml-training-abstractions",
+      "name": "ml-training-abstractions",
+      "description": "Mastering high-level frameworks like PyTorch Lightning and Keras to simplify ML development.",
+      "path": "./ml-training-abstractions"
+    },
+    {
+      "id": "ml-unsupervised-clustering",
+      "name": "ml-unsupervised-clustering",
+      "description": "Discovering patterns in unlabeled data using clustering and dimensionality reduction.",
+      "path": "./ml-unsupervised-clustering"
+    }
+  ],
+  "description": "Comprehensive methodologies for the ML lifecycle.",
+  "category": "Machine Learning & MLOps"
 }

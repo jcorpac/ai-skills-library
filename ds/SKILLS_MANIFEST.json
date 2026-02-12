@@ -1,54 +1,54 @@
-﻿{
-    "category":  "Data Science Suite",
-    "description":  "Specialized patterns for the full data science lifecycle, featuring Polars and EDA.",
-    "skills":  [
-                   {
-                       "path":  "./ds-eda-expert",
-                       "description":  "Systematic Exploratory Data Analysis.",
-                       "name":  "ds-eda-expert",
-                       "id":  "ds-eda-expert"
-                   },
-                   {
-                       "path":  "./ds-data-wrangling",
-                       "description":  "Robust cleaning and optimization.",
-                       "name":  "ds-data-wrangling",
-                       "id":  "ds-data-wrangling"
-                   },
-                   {
-                       "path":  "./ds-feature-engineering",
-                       "description":  "High-signal feature creation.",
-                       "name":  "ds-feature-engineering",
-                       "id":  "ds-feature-engineering"
-                   },
-                   {
-                       "path":  "./ds-model-evaluation",
-                       "description":  "Accurate validation and reporting.",
-                       "name":  "ds-model-evaluation",
-                       "id":  "ds-model-evaluation"
-                   },
-                   {
-                       "path":  "./ds-experiment-tracking",
-                       "description":  "Reproducibility patterns.",
-                       "name":  "ds-experiment-tracking",
-                       "id":  "ds-experiment-tracking"
-                   },
-                   {
-                       "path":  "./ds-notebook-refactor",
-                       "description":  "Transitioning research code to production.",
-                       "name":  "ds-notebook-refactor",
-                       "id":  "ds-notebook-refactor"
-                   },
-                   {
-                       "path":  "./ds-presentation-storyteller",
-                       "description":  "Crafting narrative-driven data stories.",
-                       "name":  "ds-presentation-storyteller",
-                       "id":  "ds-presentation-storyteller"
-                   },
-                   {
-                       "path":  "./ds-polars-performance",
-                       "description":  "Lightning-fast DataFrames with Polars.",
-                       "name":  "ds-polars-performance",
-                       "id":  "ds-polars-performance"
-                   }
-               ]
+{
+  "skills": [
+    {
+      "id": "ds-data-wrangling",
+      "name": "ds-data-wrangling",
+      "description": "Professional data cleaning, transformation, and pipeline optimization patterns using Pandas.",
+      "path": "./ds-data-wrangling"
+    },
+    {
+      "id": "ds-eda-expert",
+      "name": "ds-eda-expert",
+      "description": "Systematic Exploratory Data Analysis (EDA) patterns to uncover insights and data quality issues early.",
+      "path": "./ds-eda-expert"
+    },
+    {
+      "id": "ds-experiment-tracking",
+      "name": "ds-experiment-tracking",
+      "description": "Patterns for maintaining reproducibility in machine learning experiments.",
+      "path": "./ds-experiment-tracking"
+    },
+    {
+      "id": "ds-feature-engineering",
+      "name": "ds-feature-engineering",
+      "description": "Advanced strategies for creating model-ready features while avoiding data leakage.",
+      "path": "./ds-feature-engineering"
+    },
+    {
+      "id": "ds-model-evaluation",
+      "name": "ds-model-evaluation",
+      "description": "Holistic strategies for evaluating model performance beyond simple accuracy.",
+      "path": "./ds-model-evaluation"
+    },
+    {
+      "id": "ds-notebook-refactor",
+      "name": "ds-notebook-refactor",
+      "description": "Bridging the gap between exploratory Jupyter notebooks and production-ready Python modules.",
+      "path": "./ds-notebook-refactor"
+    },
+    {
+      "id": "ds-polars-performance",
+      "name": "ds-polars-performance",
+      "description": "High-performance data processing using the Rust-based Polars library.",
+      "path": "./ds-polars-performance"
+    },
+    {
+      "id": "ds-presentation-storyteller",
+      "name": "ds-presentation-storyteller",
+      "description": "Principles for creating narrative-driven, presentation-ready Jupyter notebooks for stakeholders.",
+      "path": "./ds-presentation-storyteller"
+    }
+  ],
+  "description": "Specialized patterns for the full data science lifecycle, featuring Polars and EDA.",
+  "category": "Data Science Suite"
 }

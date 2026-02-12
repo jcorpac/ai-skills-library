@@ -1,42 +1,54 @@
-﻿{
-    "category":  "Meta-Skill \u0026 Orchestration",
-    "description":  "Advanced strategies for managing large skill ecosystems and context.",
-    "skills":  [
-                   {
-                       "path":  "./skill-author",
-                       "description":  "Comprehensive guide and automation for creating and packaging skills.",
-                       "name":  "skill-author",
-                       "id":  "skill-author"
-                   },
-                   {
-                       "path":  "./meta-skill-routing",
-                       "description":  "Dynamic skill discovery and routing.",
-                       "name":  "meta-skill-routing",
-                       "id":  "meta-skill-routing"
-                   },
-                   {
-                       "path":  "./meta-context-budgeting",
-                       "description":  "Context window management and purging.",
-                       "name":  "meta-context-budgeting",
-                       "id":  "meta-context-budgeting"
-                   },
-                   {
-                       "path":  "./meta-agentic-chunking",
-                       "description":  "Task decomposition and isolated execution.",
-                       "name":  "meta-agentic-chunking",
-                       "id":  "meta-agentic-chunking"
-                   },
-                   {
-                       "path":  "./meta-mcp-dynamic-tools",
-                       "description":  "MCP-driven dynamic tool injection.",
-                       "name":  "meta-mcp-dynamic-tools",
-                       "id":  "meta-mcp-dynamic-tools"
-                   },
-                   {
-                       "path":  "./meta-recursive-discovery",
-                       "description":  "Autonomous self-improvement and discovery.",
-                       "name":  "meta-recursive-discovery",
-                       "id":  "meta-recursive-discovery"
-                   }
-               ]
+{
+  "skills": [
+    {
+      "id": "meta-agentic-chunking",
+      "name": "meta-agentic-chunking",
+      "description": "Breaking complex tasks into discrete sub-steps with isolated context for maximum precision.",
+      "path": "./meta-agentic-chunking"
+    },
+    {
+      "id": "meta-context-budgeting",
+      "name": "meta-context-budgeting",
+      "description": "Techniques for managing the context window limit in long-running AI agents.",
+      "path": "./meta-context-budgeting"
+    },
+    {
+      "id": "meta-mcp-dynamic-tools",
+      "name": "meta-mcp-dynamic-tools",
+      "description": "Using the Model Context Protocol to dynamically manage agent capabilities and context.",
+      "path": "./meta-mcp-dynamic-tools"
+    },
+    {
+      "id": "meta-recursive-discovery",
+      "name": "meta-recursive-discovery",
+      "description": "Enabling agents to autonomously search for and adopt new specialized skills.",
+      "path": "./meta-recursive-discovery"
+    },
+    {
+      "id": "meta-skill-importer",
+      "name": "meta-skill-importer",
+      "description": "Automated workflows for importing and adapting external skills from third-party repositories (e.g., Google Gemini Skills) into your local library.",
+      "path": "./meta-skill-importer"
+    },
+    {
+      "id": "meta-skill-routing",
+      "name": "meta-skill-routing",
+      "description": "Strategies for dynamic skill discovery to minimize context overhead.",
+      "path": "./meta-skill-routing"
+    },
+    {
+      "id": "skill-author",
+      "name": "skill-author",
+      "description": "Comprehensive guide and automation for creating, maintaining, and packaging AI skills within the skills library. Use when adding new skills or updating existing ones to ensure they meet repository standards and are correctly packaged for distribution.",
+      "path": "./skill-author"
+    },
+    {
+      "id": "template-skill",
+      "name": "template-skill",
+      "description": "A template skill demonstrating the required structure and metadata for a skill package.",
+      "path": "./template-skill"
+    }
+  ],
+  "description": "Advanced strategies for managing large skill ecosystems and context.",
+  "category": "Meta-Skill & Orchestration"
 }

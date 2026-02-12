@@ -1,12 +1,18 @@
-﻿{
-    "category":  "Modern Ecosystem Expansion (FastAPI)",
-    "description":  "Type-safe, high-performance API development with Modern Python.",
-    "skills":  [
-                   {
-                       "path":  "./api-fastapi-modern",
-                       "description":  "Type-safe, high-performance APIs.",
-                       "name":  "api-fastapi-modern",
-                       "id":  "api-fastapi-modern"
-                   }
-               ]
+{
+  "skills": [
+    {
+      "id": "api-fastapi-modern",
+      "name": "api-fastapi-modern",
+      "description": "Building high-performance, type-safe APIs with Python 3.10+ and Pydantic.",
+      "path": "./api-fastapi-modern"
+    },
+    {
+      "id": "gemini-api-dev",
+      "name": "gemini-api-dev",
+      "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.",
+      "path": "./gemini-api-dev"
+    }
+  ],
+  "description": "Type-safe, high-performance API development with Modern Python.",
+  "category": "Modern Ecosystem Expansion (FastAPI)"
 }

@@ -1,13 +1,14 @@
-﻿# Full-Stack Flask Mastery
+# Full-Stack Flask Mastery
 
 Mastering production-grade web development with Flask.
 
 ## Skills in this Category
-- **[flask-foundations](./flask-foundations)**: App Factory and Blueprints.
-- **[flask-templating-jinja](./flask-templating-jinja)**: Server-side rendering and layouts.
-- **[flask-forms-validation](./flask-forms-validation)**: Secure input handling with Flask-WTF.
-- **[flask-data-persistence](./flask-data-persistence)**: SQLAlchemy ORM and migrations.
-- **[flask-auth-security](./flask-auth-security)**: Session and JWT authentication patterns.
-- **[flask-api-design](./flask-api-design)**: RESTful design and serialization.
-- **[flask-assets-management](./flask-assets-management)**: Minification and bundling pipelines.
-- **[flask-testing-patterns](./flask-testing-patterns)**: Professional testing with Pytest.
+- **[flask-api-design](./flask-api-design)**: Building clean, RESTful APIs with Marshmallow for serialization and OpenAPI documentation.
+- **[flask-assets-management](./flask-assets-management)**: Professional pipelines for CSS, JS, and image management in Flask applications.
+- **[flask-auth-security](./flask-auth-security)**: Implementing professional session-based and token-based authentication.
+- **[flask-data-persistence](./flask-data-persistence)**: Professional database management with SQLAlchemy and Flask-Migrate.
+- **[flask-forms-validation](./flask-forms-validation)**: Securely handling user input using Flask-WTF and robust validation patterns.
+- **[flask-foundations](./flask-foundations)**: Professional application architecture using the Factory Pattern and Blueprints in Flask.
+- **[flask-templating-jinja](./flask-templating-jinja)**: Mastering server-side rendering with Jinja2 layouts, macros, and filters.
+- **[flask-testing-patterns](./flask-testing-patterns)**: Rigorous testing of Flask applications using Pytest and professional mocking strategies.
+
