@@ -37,6 +37,12 @@
       "path": "./ml-ops-pipelines"
     },
     {
+      "id": "ml-rag-foundations",
+      "name": "ml-rag-foundations",
+      "description": "Comprehensive guide to building Retrieval-Augmented Generation (RAG) applications by combining specific library skills.",
+      "path": "./ml-rag-foundations"
+    },
+    {
       "id": "ml-serving-frameworks",
       "name": "ml-serving-frameworks",
       "description": "Deploying models as high-performance, scalable microservices using specialized serving frameworks.",

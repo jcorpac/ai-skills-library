@@ -9,6 +9,7 @@ Comprehensive methodologies for the ML lifecycle.
 - **[ml-hyperparameter-tuning](./ml-hyperparameter-tuning)**: Systematically finding the optimal model configuration to maximize performance.
 - **[ml-nlp-transformers](./ml-nlp-transformers)**: Professional workflows for modern Natural Language Processing using Transformer architectures.
 - **[ml-ops-pipelines](./ml-ops-pipelines)**: Orchestrating the end-to-end Machine Learning lifecycle with robust, reproducible pipelines.
+- **[ml-rag-foundations](./ml-rag-foundations)**: Comprehensive guide to building Retrieval-Augmented Generation (RAG) applications by combining specific library skills.
 - **[ml-serving-frameworks](./ml-serving-frameworks)**: Deploying models as high-performance, scalable microservices using specialized serving frameworks.
 - **[ml-streamlit-apps](./ml-streamlit-apps)**: Rapidly building and deploying interactive machine learning dashboards.
 - **[ml-supervised-patterns](./ml-supervised-patterns)**: Professional patterns for supervised learning pipelines, including classification and regression.
