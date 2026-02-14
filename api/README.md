@@ -1,8 +1,10 @@
-# Modern Ecosystem Expansion (FastAPI)
+﻿# Modern Ecosystem Expansion (FastAPI)
 
 Type-safe, high-performance API development with Modern Python.
 
 ## Skills in this Category
-- **[api-fastapi-modern](./api-fastapi-modern)**: Building high-performance, type-safe APIs with Python 3.10+ and Pydantic.
-- **[gemini-api-dev](./gemini-api-dev)**: Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.
-
+- **[api-fastapi-modern](./api-fastapi-modern)**: Type-safe, high-performance APIs.
+- **[gemini-api-dev](./gemini-api-dev)**: *Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).
+- **[api-firebase-foundations](./api-firebase-foundations)**: Core setup and configuration for Firebase.
+- **[api-firebase-auth](./api-firebase-auth)**: Authentication patterns with Firebase Auth.
+- **[api-firebase-firestore](./api-firebase-firestore)**: Cloud Firestore NoSQL database operations.

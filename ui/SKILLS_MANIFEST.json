@@ -1,60 +1,60 @@
-{
-  "skills": [
-    {
-      "id": "js-markdown-rendering",
-      "name": "js-markdown-rendering",
-      "description": "Dynamically fetching and rendering markdown content in the browser.",
-      "path": "./js-markdown-rendering"
-    },
-    {
-      "id": "ui-accessibility-pro",
-      "name": "ui-accessibility-pro",
-      "description": "Mastering semantic HTML and ARIA to build inclusive web experiences for everyone.",
-      "path": "./ui-accessibility-pro"
-    },
-    {
-      "id": "ui-component-architecture",
-      "name": "ui-component-architecture",
-      "description": "A blueprint for building reusable, encapsulated UI components using Vanilla JavaScript.",
-      "path": "./ui-component-architecture"
-    },
-    {
-      "id": "ui-dynamic-interactions",
-      "name": "ui-dynamic-interactions",
-      "description": "Crafting engaging animations and transitions that make an interface feel responsive and alive.",
-      "path": "./ui-dynamic-interactions"
-    },
-    {
-      "id": "ui-js-modular-patterns",
-      "name": "ui-js-modular-patterns",
-      "description": "Scalable, maintainable, and framework-agnostic JavaScript logic for modern web applications.",
-      "path": "./ui-js-modular-patterns"
-    },
-    {
-      "id": "ui-portfolio-theming",
-      "name": "ui-portfolio-theming",
-      "description": "Designing premium, high-readability documentation and portfolio themes.",
-      "path": "./ui-portfolio-theming"
-    },
-    {
-      "id": "ui-responsive-grids",
-      "name": "ui-responsive-grids",
-      "description": "Advanced CSS Grid and Flexbox techniques for layouts that adapt seamlessly to any device.",
-      "path": "./ui-responsive-grids"
-    },
-    {
-      "id": "ui-search-filtering",
-      "name": "ui-search-filtering",
-      "description": "Implementing fast, client-side search for large documentation sets.",
-      "path": "./ui-search-filtering"
-    },
-    {
-      "id": "ui-vanilla-premium",
-      "name": "ui-vanilla-premium",
-      "description": "Creating high-end, bespoke user interfaces using vanilla CSS/JS without the bloat of heavy frameworks.",
-      "path": "./ui-vanilla-premium"
-    }
-  ],
-  "description": "Premium frontend development and dynamic rendering without frameworks.",
-  "category": "UI/UX & Presentation Layer"
+﻿{
+    "category":  "UI/UX \u0026 Presentation Layer",
+    "description":  "Premium frontend development and dynamic rendering without frameworks.",
+    "skills":  [
+                   {
+                       "path":  "./ui-vanilla-premium",
+                       "description":  "Bespoke styling and high-end aesthetics.",
+                       "name":  "ui-vanilla-premium",
+                       "id":  "ui-vanilla-premium"
+                   },
+                   {
+                       "path":  "./ui-accessibility-pro",
+                       "description":  "Inclusive design and A11y standards.",
+                       "name":  "ui-accessibility-pro",
+                       "id":  "ui-accessibility-pro"
+                   },
+                   {
+                       "path":  "./ui-js-modular-patterns",
+                       "description":  "Clean, scalable JavaScript logic.",
+                       "name":  "ui-js-modular-patterns",
+                       "id":  "ui-js-modular-patterns"
+                   },
+                   {
+                       "path":  "./ui-dynamic-interactions",
+                       "description":  "Professional animations and feedback.",
+                       "name":  "ui-dynamic-interactions",
+                       "id":  "ui-dynamic-interactions"
+                   },
+                   {
+                       "path":  "./ui-responsive-grids",
+                       "description":  "Fluid layouts with Grid and Flexbox.",
+                       "name":  "ui-responsive-grids",
+                       "id":  "ui-responsive-grids"
+                   },
+                   {
+                       "path":  "./ui-component-architecture",
+                       "description":  "Reusable, encapsulated UI blocks.",
+                       "name":  "ui-component-architecture",
+                       "id":  "ui-component-architecture"
+                   },
+                   {
+                       "path":  "./ui-portfolio-theming",
+                       "description":  "Premium design for documentation portfolios.",
+                       "name":  "ui-portfolio-theming",
+                       "id":  "ui-portfolio-theming"
+                   },
+                   {
+                       "path":  "./js-markdown-rendering",
+                       "description":  "Dynamic browser-side markdown rendering.",
+                       "name":  "js-markdown-rendering",
+                       "id":  "js-markdown-rendering"
+                   },
+                   {
+                       "path":  "./ui-search-filtering",
+                       "description":  "Fast client-side skill searching.",
+                       "name":  "ui-search-filtering",
+                       "id":  "ui-search-filtering"
+                   }
+               ]
 }

@@ -136,6 +136,9 @@ High-performance tools for modern data science and API development.
 - **[api-fastapi-modern](./api/api-fastapi-modern)**: Type-safe, high-performance APIs.
 - **[gemini-api-dev](./api/gemini-api-dev)**: *Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).
 - **[ops-github-actions-cicd](./ops/ops-github-actions-cicd)**: Professional workflow automation.
+- **[api-firebase-foundations](./api/api-firebase-foundations)**: Core setup and configuration for Firebase.
+- **[api-firebase-auth](./api/api-firebase-auth)**: Authentication patterns with Firebase Auth.
+- **[api-firebase-firestore](./api/api-firebase-firestore)**: Cloud Firestore NoSQL database operations.
 
 ### 🐳 Docker & Container Mastery
 Production-grade containerization and orchestration.

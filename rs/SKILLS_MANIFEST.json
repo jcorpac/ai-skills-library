@@ -1,24 +1,24 @@
-{
-  "skills": [
-    {
-      "id": "rs-error-excellence",
-      "name": "rs-error-excellence",
-      "description": "Idiomatic patterns for robust, transparent, and recoverable error handling in Rust.",
-      "path": "./rs-error-excellence"
-    },
-    {
-      "id": "rs-memory-safety",
-      "name": "rs-memory-safety",
-      "description": "Deep dive into Rust's core promise: memory safety without a garbage collector via ownership and lifetimes.",
-      "path": "./rs-memory-safety"
-    },
-    {
-      "id": "rs-zero-cost-abstractions",
-      "name": "rs-zero-cost-abstractions",
-      "description": "Leveraging Rust's advanced type system to build powerful abstractions without runtime overhead.",
-      "path": "./rs-zero-cost-abstractions"
-    }
-  ],
-  "description": "Systems programming with safety and high performance.",
-  "category": "Language Excellence (Rust)"
+﻿{
+    "category":  "Language Excellence (Rust)",
+    "description":  "Systems programming with safety and high performance.",
+    "skills":  [
+                   {
+                       "path":  "./rs-memory-safety",
+                       "description":  "Ownership, lifetimes, and safety.",
+                       "name":  "rs-memory-safety",
+                       "id":  "rs-memory-safety"
+                   },
+                   {
+                       "path":  "./rs-error-excellence",
+                       "description":  "Idiomatic error handling patterns.",
+                       "name":  "rs-error-excellence",
+                       "id":  "rs-error-excellence"
+                   },
+                   {
+                       "path":  "./rs-zero-cost-abstractions",
+                       "description":  "Zero-overhead type system magic.",
+                       "name":  "rs-zero-cost-abstractions",
+                       "id":  "rs-zero-cost-abstractions"
+                   }
+               ]
 }

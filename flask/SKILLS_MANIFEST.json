@@ -1,54 +1,54 @@
-{
-  "skills": [
-    {
-      "id": "flask-api-design",
-      "name": "flask-api-design",
-      "description": "Building clean, RESTful APIs with Marshmallow for serialization and OpenAPI documentation.",
-      "path": "./flask-api-design"
-    },
-    {
-      "id": "flask-assets-management",
-      "name": "flask-assets-management",
-      "description": "Professional pipelines for CSS, JS, and image management in Flask applications.",
-      "path": "./flask-assets-management"
-    },
-    {
-      "id": "flask-auth-security",
-      "name": "flask-auth-security",
-      "description": "Implementing professional session-based and token-based authentication.",
-      "path": "./flask-auth-security"
-    },
-    {
-      "id": "flask-data-persistence",
-      "name": "flask-data-persistence",
-      "description": "Professional database management with SQLAlchemy and Flask-Migrate.",
-      "path": "./flask-data-persistence"
-    },
-    {
-      "id": "flask-forms-validation",
-      "name": "flask-forms-validation",
-      "description": "Securely handling user input using Flask-WTF and robust validation patterns.",
-      "path": "./flask-forms-validation"
-    },
-    {
-      "id": "flask-foundations",
-      "name": "flask-foundations",
-      "description": "Professional application architecture using the Factory Pattern and Blueprints in Flask.",
-      "path": "./flask-foundations"
-    },
-    {
-      "id": "flask-templating-jinja",
-      "name": "flask-templating-jinja",
-      "description": "Mastering server-side rendering with Jinja2 layouts, macros, and filters.",
-      "path": "./flask-templating-jinja"
-    },
-    {
-      "id": "flask-testing-patterns",
-      "name": "flask-testing-patterns",
-      "description": "Rigorous testing of Flask applications using Pytest and professional mocking strategies.",
-      "path": "./flask-testing-patterns"
-    }
-  ],
-  "description": "Mastering production-grade web development with Flask.",
-  "category": "Full-Stack Flask Mastery"
+﻿{
+    "category":  "Full-Stack Flask Mastery",
+    "description":  "Mastering production-grade web development with Flask.",
+    "skills":  [
+                   {
+                       "path":  "./flask-foundations",
+                       "description":  "App Factory and Blueprints.",
+                       "name":  "flask-foundations",
+                       "id":  "flask-foundations"
+                   },
+                   {
+                       "path":  "./flask-templating-jinja",
+                       "description":  "Server-side rendering and layouts.",
+                       "name":  "flask-templating-jinja",
+                       "id":  "flask-templating-jinja"
+                   },
+                   {
+                       "path":  "./flask-forms-validation",
+                       "description":  "Secure input handling with Flask-WTF.",
+                       "name":  "flask-forms-validation",
+                       "id":  "flask-forms-validation"
+                   },
+                   {
+                       "path":  "./flask-data-persistence",
+                       "description":  "SQLAlchemy ORM and migrations.",
+                       "name":  "flask-data-persistence",
+                       "id":  "flask-data-persistence"
+                   },
+                   {
+                       "path":  "./flask-auth-security",
+                       "description":  "Session and JWT authentication patterns.",
+                       "name":  "flask-auth-security",
+                       "id":  "flask-auth-security"
+                   },
+                   {
+                       "path":  "./flask-api-design",
+                       "description":  "RESTful design and serialization.",
+                       "name":  "flask-api-design",
+                       "id":  "flask-api-design"
+                   },
+                   {
+                       "path":  "./flask-assets-management",
+                       "description":  "Minification and bundling pipelines.",
+                       "name":  "flask-assets-management",
+                       "id":  "flask-assets-management"
+                   },
+                   {
+                       "path":  "./flask-testing-patterns",
+                       "description":  "Professional testing with Pytest.",
+                       "name":  "flask-testing-patterns",
+                       "id":  "flask-testing-patterns"
+                   }
+               ]
 }

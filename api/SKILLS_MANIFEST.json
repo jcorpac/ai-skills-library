@@ -1,18 +1,36 @@
-{
-  "skills": [
-    {
-      "id": "api-fastapi-modern",
-      "name": "api-fastapi-modern",
-      "description": "Building high-performance, type-safe APIs with Python 3.10+ and Pydantic.",
-      "path": "./api-fastapi-modern"
-    },
-    {
-      "id": "gemini-api-dev",
-      "name": "gemini-api-dev",
-      "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.",
-      "path": "./gemini-api-dev"
-    }
-  ],
-  "description": "Type-safe, high-performance API development with Modern Python.",
-  "category": "Modern Ecosystem Expansion (FastAPI)"
+﻿{
+    "category":  "Modern Ecosystem Expansion (FastAPI)",
+    "description":  "Type-safe, high-performance API development with Modern Python.",
+    "skills":  [
+                   {
+                       "path":  "./api-fastapi-modern",
+                       "description":  "Type-safe, high-performance APIs.",
+                       "name":  "api-fastapi-modern",
+                       "id":  "api-fastapi-modern"
+                   },
+                   {
+                       "path":  "./gemini-api-dev",
+                       "description":  "*Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).",
+                       "name":  "gemini-api-dev",
+                       "id":  "gemini-api-dev"
+                   },
+                   {
+                       "path":  "./api-firebase-foundations",
+                       "description":  "Core setup and configuration for Firebase.",
+                       "name":  "api-firebase-foundations",
+                       "id":  "api-firebase-foundations"
+                   },
+                   {
+                       "path":  "./api-firebase-auth",
+                       "description":  "Authentication patterns with Firebase Auth.",
+                       "name":  "api-firebase-auth",
+                       "id":  "api-firebase-auth"
+                   },
+                   {
+                       "path":  "./api-firebase-firestore",
+                       "description":  "Cloud Firestore NoSQL database operations.",
+                       "name":  "api-firebase-firestore",
+                       "id":  "api-firebase-firestore"
+                   }
+               ]
 }
