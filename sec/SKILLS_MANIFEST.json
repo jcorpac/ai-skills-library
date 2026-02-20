@@ -1,0 +1,42 @@
+﻿{
+    "category":  "Security \u0026 Threat Modeling",
+    "description":  "OWASP security testing and vulnerability remediation.",
+    "skills":  [
+                   {
+                       "path":  "./sec-owasp-code-review",
+                       "description":  "Targeted SAST focused on the OWASP Top 10.",
+                       "name":  "sec-owasp-code-review",
+                       "id":  "sec-owasp-code-review"
+                   },
+                   {
+                       "path":  "./sec-dependency-audit",
+                       "description":  "Systematically audit dependencies for supply chain vulnerabilities.",
+                       "name":  "sec-dependency-audit",
+                       "id":  "sec-dependency-audit"
+                   },
+                   {
+                       "path":  "./sec-threat-modeling",
+                       "description":  "Facilitate interactive threat-modeling sessions (STRIDE).",
+                       "name":  "sec-threat-modeling",
+                       "id":  "sec-threat-modeling"
+                   },
+                   {
+                       "path":  "./sec-zap-dast-integration",
+                       "description":  "Assistance with setting up and parsing OWASP ZAP scans.",
+                       "name":  "sec-zap-dast-integration",
+                       "id":  "sec-zap-dast-integration"
+                   },
+                   {
+                       "path":  "./sec-config-auditor",
+                       "description":  "Review infrastructure configs (Docker, K8s, NGINX) for misconfigurations.",
+                       "name":  "sec-config-auditor",
+                       "id":  "sec-config-auditor"
+                   },
+                   {
+                       "path":  "./sec-input-validation-generator",
+                       "description":  "Generate strict validation schemas (Zod, Pydantic) to prevent injection.",
+                       "name":  "sec-input-validation-generator",
+                       "id":  "sec-input-validation-generator"
+                   }
+               ]
+}

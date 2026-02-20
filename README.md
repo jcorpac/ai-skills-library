@@ -140,6 +140,15 @@ High-performance tools for modern data science and API development.
 - **[api-firebase-auth](./api/api-firebase-auth)**: Authentication patterns with Firebase Auth.
 - **[api-firebase-firestore](./api/api-firebase-firestore)**: Cloud Firestore NoSQL database operations.
 
+### 🔐 Security & Threat Modeling
+OWASP security testing and vulnerability remediation.
+- **[sec-owasp-code-review](./sec/sec-owasp-code-review)**: Targeted SAST focused on the OWASP Top 10.
+- **[sec-dependency-audit](./sec/sec-dependency-audit)**: Systematically audit dependencies for supply chain vulnerabilities.
+- **[sec-threat-modeling](./sec/sec-threat-modeling)**: Facilitate interactive threat-modeling sessions (STRIDE).
+- **[sec-zap-dast-integration](./sec/sec-zap-dast-integration)**: Assistance with setting up and parsing OWASP ZAP scans.
+- **[sec-config-auditor](./sec/sec-config-auditor)**: Review infrastructure configs (Docker, K8s, NGINX) for misconfigurations.
+- **[sec-input-validation-generator](./sec/sec-input-validation-generator)**: Generate strict validation schemas (Zod, Pydantic) to prevent injection.
+
 ### 🐳 Docker & Container Mastery
 Production-grade containerization and orchestration.
 - **[ops-docker-foundations](./ops/ops-docker-foundations)**: Container lifecycle and basic patterns.

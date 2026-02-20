@@ -1,7 +1,7 @@
 # AI Skills Library - Metadata Generator
 # Consolidates README metadata into category-specific manifests and READMEs
 
-$readmePath = Join-Path $PSScriptRoot "README.md"
+$readmePath = Join-Path $PSScriptRoot "..\..\README.md"
 if (-not (Test-Path $readmePath)) {
     Write-Error "README.md not found at expected path: $readmePath"
     exit 1
@@ -24,6 +24,7 @@ $categoryMeta = @{
     'rs'    = @{ name = 'Language Excellence (Rust)'; desc = 'Systems programming with safety and high performance.' }
     'tdd'   = @{ name = 'Test-Driven Development (TDD) Suite'; desc = 'Comprehensive tools for maintaining high code quality through rigorous testing.' }
     'ui'    = @{ name = 'UI/UX & Presentation Layer'; desc = 'Premium frontend development and dynamic rendering without frameworks.' }
+    'sec'   = @{ name = 'Security & Threat Modeling'; desc = 'OWASP security testing and vulnerability remediation.' }
 }
 
 # Regex to find skill links: - **[name](./path)**: description
@@ -58,7 +59,7 @@ foreach ($cat in $categoryMeta.Keys.GetEnumerator() | Sort-Object) {
         continue
     }
 
-    $targetDir = Join-Path $PSScriptRoot $cat
+    $targetDir = Join-Path $PSScriptRoot "..\..\$cat"
     if (-not (Test-Path $targetDir)) {
         Write-Warning "Category directory not found: $targetDir. Skipping."
         continue
@@ -114,6 +115,7 @@ $categoryMeta = @{
     'rs'    = @{ name = 'Language Excellence (Rust)'; desc = 'Systems programming with safety and high performance.' }
     'tdd'   = @{ name = 'Test-Driven Development (TDD) Suite'; desc = 'Comprehensive tools for maintaining high code quality through rigorous testing.' }
     'ui'    = @{ name = 'UI/UX & Presentation Layer'; desc = 'Premium frontend development and dynamic rendering without frameworks.' }
+    'sec'   = @{ name = 'Security & Threat Modeling'; desc = 'OWASP security testing and vulnerability remediation.' }
 }
 
 # Regex to find links: - **[name](./path)**: description
