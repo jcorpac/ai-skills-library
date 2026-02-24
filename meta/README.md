@@ -1,4 +1,4 @@
-﻿# Meta-Skill & Orchestration
+# Meta-Skill & Orchestration
 
 Advanced strategies for managing large skill ecosystems and context.
 

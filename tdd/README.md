@@ -1,4 +1,4 @@
-﻿# Test-Driven Development (TDD) Suite
+# Test-Driven Development (TDD) Suite
 
 Comprehensive tools for maintaining high code quality through rigorous testing.
 

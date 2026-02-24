@@ -1,4 +1,4 @@
-﻿# MCP Architecture & Development
+# MCP Architecture & Development
 
 Professional engineering for the Model Context Protocol.
 
@@ -9,3 +9,4 @@ Professional engineering for the Model Context Protocol.
 - **[mcp-security-sandboxing](./mcp-security-sandboxing)**: Safe execution and resource isolation.
 - **[mcp-testing-frameworks](./mcp-testing-frameworks)**: Automated verification for MCP tools.
 - **[mcp-deployment-registry](./mcp-deployment-registry)**: UV/Docker packaging and host integration.
+- **[mcp-directory-federation](./mcp-directory-federation)**: Architecting MCP routers as zero-execution metadata directories.

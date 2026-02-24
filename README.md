@@ -85,6 +85,7 @@ Professional version control and repository management.
 - **[git-history-polish](./git/git-history-polish)**: Advanced history management with rebase.
 - **[git-tagging-releases](./git/git-tagging-releases)**: Semantic versioning and milestones.
 - **[git-github-master](./git/git-github-master)**: Remote publishing and collaboration.
+- **[git-untracked-templates](./git/git-untracked-templates)**: Committing template files to git while ignoring subsequent local mutations.
 
 ### 🤖 Machine Learning & MLOps
 Comprehensive methodologies for the ML lifecycle.
@@ -107,6 +108,7 @@ Professional engineering for the Model Context Protocol.
 - **[mcp-security-sandboxing](./mcp/mcp-security-sandboxing)**: Safe execution and resource isolation.
 - **[mcp-testing-frameworks](./mcp/mcp-testing-frameworks)**: Automated verification for MCP tools.
 - **[mcp-deployment-registry](./mcp/mcp-deployment-registry)**: UV/Docker packaging and host integration.
+- **[mcp-directory-federation](./mcp/mcp-directory-federation)**: Architecting MCP routers as zero-execution metadata directories.
 
 ### 🌶️ Full-Stack Flask Mastery
 Mastering production-grade web development with Flask.
@@ -118,6 +120,7 @@ Mastering production-grade web development with Flask.
 - **[flask-api-design](./flask/flask-api-design)**: RESTful design and serialization.
 - **[flask-assets-management](./flask/flask-assets-management)**: Minification and bundling pipelines.
 - **[flask-testing-patterns](./flask/flask-testing-patterns)**: Professional testing with Pytest.
+- **[flask-fastmcp-threading](./flask/flask-fastmcp-threading)**: Concurrency for FastMCP stdio and Flask APIs.
 
 ### 🧠 Meta-Skill & Orchestration
 Advanced strategies for managing large skill ecosystems and context.
@@ -156,6 +159,7 @@ Production-grade containerization and orchestration.
 - **[ops-docker-optimization](./ops/ops-docker-optimization)**: Multi-stage builds and layer caching.
 - **[ops-docker-security-hardening](./ops/ops-docker-security-hardening)**: Non-root execution and secret management.
 - **[ops-docker-networking-volumes](./ops/ops-docker-networking-volumes)**: Persistent data and service networks.
+- **[ops-fastmcp-stdio-proxy](./ops/ops-fastmcp-stdio-proxy)**: Mapping docker sockets to proxy stdio execution across containers.
 
 ### 🍱 GitHub Portfolio Showcase
 Presenting your skill library as a professional, searchable documentation site.

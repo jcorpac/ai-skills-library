@@ -1,4 +1,4 @@
-﻿# UI/UX & Presentation Layer
+# UI/UX & Presentation Layer
 
 Premium frontend development and dynamic rendering without frameworks.
 

@@ -1,54 +1,60 @@
-﻿{
-    "category":  "Full-Stack Flask Mastery",
-    "description":  "Mastering production-grade web development with Flask.",
-    "skills":  [
-                   {
-                       "path":  "./flask-foundations",
-                       "description":  "App Factory and Blueprints.",
-                       "name":  "flask-foundations",
-                       "id":  "flask-foundations"
-                   },
-                   {
-                       "path":  "./flask-templating-jinja",
-                       "description":  "Server-side rendering and layouts.",
-                       "name":  "flask-templating-jinja",
-                       "id":  "flask-templating-jinja"
-                   },
-                   {
-                       "path":  "./flask-forms-validation",
-                       "description":  "Secure input handling with Flask-WTF.",
-                       "name":  "flask-forms-validation",
-                       "id":  "flask-forms-validation"
-                   },
-                   {
-                       "path":  "./flask-data-persistence",
-                       "description":  "SQLAlchemy ORM and migrations.",
-                       "name":  "flask-data-persistence",
-                       "id":  "flask-data-persistence"
-                   },
-                   {
-                       "path":  "./flask-auth-security",
-                       "description":  "Session and JWT authentication patterns.",
-                       "name":  "flask-auth-security",
-                       "id":  "flask-auth-security"
-                   },
-                   {
-                       "path":  "./flask-api-design",
-                       "description":  "RESTful design and serialization.",
-                       "name":  "flask-api-design",
-                       "id":  "flask-api-design"
-                   },
-                   {
-                       "path":  "./flask-assets-management",
-                       "description":  "Minification and bundling pipelines.",
-                       "name":  "flask-assets-management",
-                       "id":  "flask-assets-management"
-                   },
-                   {
-                       "path":  "./flask-testing-patterns",
-                       "description":  "Professional testing with Pytest.",
-                       "name":  "flask-testing-patterns",
-                       "id":  "flask-testing-patterns"
-                   }
-               ]
+{
+  "category": "Full-Stack Flask Mastery",
+  "skills": [
+    {
+      "name": "flask-foundations",
+      "id": "flask-foundations",
+      "description": "App Factory and Blueprints.",
+      "path": "./flask-foundations"
+    },
+    {
+      "name": "flask-templating-jinja",
+      "id": "flask-templating-jinja",
+      "description": "Server-side rendering and layouts.",
+      "path": "./flask-templating-jinja"
+    },
+    {
+      "name": "flask-forms-validation",
+      "id": "flask-forms-validation",
+      "description": "Secure input handling with Flask-WTF.",
+      "path": "./flask-forms-validation"
+    },
+    {
+      "name": "flask-data-persistence",
+      "id": "flask-data-persistence",
+      "description": "SQLAlchemy ORM and migrations.",
+      "path": "./flask-data-persistence"
+    },
+    {
+      "name": "flask-auth-security",
+      "id": "flask-auth-security",
+      "description": "Session and JWT authentication patterns.",
+      "path": "./flask-auth-security"
+    },
+    {
+      "name": "flask-api-design",
+      "id": "flask-api-design",
+      "description": "RESTful design and serialization.",
+      "path": "./flask-api-design"
+    },
+    {
+      "name": "flask-assets-management",
+      "id": "flask-assets-management",
+      "description": "Minification and bundling pipelines.",
+      "path": "./flask-assets-management"
+    },
+    {
+      "name": "flask-testing-patterns",
+      "id": "flask-testing-patterns",
+      "description": "Professional testing with Pytest.",
+      "path": "./flask-testing-patterns"
+    },
+    {
+      "name": "flask-fastmcp-threading",
+      "id": "flask-fastmcp-threading",
+      "description": "Concurrency for FastMCP stdio and Flask APIs.",
+      "path": "./flask-fastmcp-threading"
+    }
+  ],
+  "description": "Mastering production-grade web development with Flask."
 }

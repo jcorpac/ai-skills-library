@@ -1,4 +1,4 @@
-﻿# Git Mastery Suite
+# Git Mastery Suite
 
 Professional version control and repository management.
 
@@ -10,3 +10,4 @@ Professional version control and repository management.
 - **[git-history-polish](./git-history-polish)**: Advanced history management with rebase.
 - **[git-tagging-releases](./git-tagging-releases)**: Semantic versioning and milestones.
 - **[git-github-master](./git-github-master)**: Remote publishing and collaboration.
+- **[git-untracked-templates](./git-untracked-templates)**: Committing template files to git while ignoring subsequent local mutations.

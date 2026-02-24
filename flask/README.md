@@ -1,4 +1,4 @@
-﻿# Full-Stack Flask Mastery
+# Full-Stack Flask Mastery
 
 Mastering production-grade web development with Flask.
 
@@ -11,3 +11,4 @@ Mastering production-grade web development with Flask.
 - **[flask-api-design](./flask-api-design)**: RESTful design and serialization.
 - **[flask-assets-management](./flask-assets-management)**: Minification and bundling pipelines.
 - **[flask-testing-patterns](./flask-testing-patterns)**: Professional testing with Pytest.
+- **[flask-fastmcp-threading](./flask-fastmcp-threading)**: Concurrency for FastMCP stdio and Flask APIs.
