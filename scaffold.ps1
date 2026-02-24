@@ -23,8 +23,9 @@ if (-not $Name) {
     $Name = Read-Host "Enter Skill Name (kebab-case, e.g., stripe-integration)"
 }
 
-$folderPath = "$Category/$Category-$Name"
-$fullPath = Join-Path (Get-Location) $folderPath
+$folderName = "$Category-$Name"
+$folderPath = Join-Path $Category $folderName
+$fullPath = Join-Path $PSScriptRoot $folderPath
 
 if (Test-Path $fullPath) {
     Write-Error "Skill folder already exists at $folderPath"

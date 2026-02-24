@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $RepoRoot = Get-Item $PSScriptRoot
-$DestDir = Join-Path $HOME ".gemini\skills"
+$DestDir = Join-Path $HOME ".gemini" "skills"
 
 Write-Host "--- AI Skills Library Installer ---" -ForegroundColor Cyan
 Write-Host "Source: $($RepoRoot.FullName)"
@@ -24,7 +24,7 @@ Write-Host ""
 # 1. Ensure destination exists
 if (!(Test-Path $DestDir)) {
     Write-Host "[+] Creating destination directory..."
-    New-Item -ItemType Directory -Path $DestDir | Out-Null
+    New-Item -ItemType Directory -Path $DestDir -Force | Out-Null
 }
 
 # 2. Identify skills (folders containing SKILL.md)
@@ -35,6 +35,9 @@ Write-Host "[*] Found $($SkillFolders.Count) skills."
 # 3. Create Links
 $SuccessCount = 0
 $SkipCount = 0
+
+# Determine the correct link type for the OS
+$LinkType = if ($IsWindows) { "Junction" } else { "SymbolicLink" }
 
 foreach ($Folder in $SkillFolders) {
     # Skip meta folders or templates if necessary (currently everything with SKILL.md is a skill)
@@ -51,11 +54,10 @@ foreach ($Folder in $SkillFolders) {
     }
 
     try {
-        # Check permissions for symlinks (usually requires admin, falling back to junction/copy if needed)
-        # On Windows, New-Item -ItemType SymbolicLink often requires elevation.
-        # Junctions do not require elevation and work for directories.
-        New-Item -ItemType Junction -Path $DestPath -Target $TargetPath | Out-Null
-        Write-Host "[+] Linked: $LinkName" -ForegroundColor Green
+        # Check permissions for symlinks (usually requires admin on Windows, junctions are a safer fallback for dirs)
+        # On macOS/Linux, SymbolicLink is standard and does not require elevation.
+        New-Item -ItemType $LinkType -Path $DestPath -Target $TargetPath | Out-Null
+        Write-Host "[+] Linked: $LinkName ($LinkType)" -ForegroundColor Green
         $SuccessCount++
     }
     catch {
