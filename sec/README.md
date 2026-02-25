@@ -1,4 +1,4 @@
-﻿# Security & Threat Modeling
+# Security & Threat Modeling
 
 OWASP security testing and vulnerability remediation.
 

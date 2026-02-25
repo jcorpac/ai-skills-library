@@ -1,48 +1,48 @@
 {
-  "category": "Meta-Skill & Orchestration",
-  "skills": [
-    {
-      "name": "skill-author",
-      "id": "skill-author",
-      "description": "Comprehensive guide and automation for creating and packaging skills.",
-      "path": "./skill-author"
-    },
-    {
-      "name": "meta-skill-routing",
-      "id": "meta-skill-routing",
-      "description": "Dynamic skill discovery and routing.",
-      "path": "./meta-skill-routing"
-    },
-    {
-      "name": "meta-context-budgeting",
-      "id": "meta-context-budgeting",
-      "description": "Context window management and purging.",
-      "path": "./meta-context-budgeting"
-    },
-    {
-      "name": "meta-agentic-chunking",
-      "id": "meta-agentic-chunking",
-      "description": "Task decomposition and isolated execution.",
-      "path": "./meta-agentic-chunking"
-    },
-    {
-      "name": "meta-mcp-dynamic-tools",
-      "id": "meta-mcp-dynamic-tools",
-      "description": "MCP-driven dynamic tool injection.",
-      "path": "./meta-mcp-dynamic-tools"
-    },
-    {
-      "name": "meta-recursive-discovery",
-      "id": "meta-recursive-discovery",
-      "description": "Autonomous self-improvement and discovery.",
-      "path": "./meta-recursive-discovery"
-    },
-    {
-      "name": "meta-skill-importer",
-      "id": "meta-skill-importer",
-      "description": "Automated workflows for importing external skills from Git repositories.",
-      "path": "./meta-skill-importer"
-    }
-  ],
-  "description": "Advanced strategies for managing large skill ecosystems and context."
+    "category":  "Meta-Skill \u0026 Orchestration",
+    "description":  "Advanced strategies for managing large skill ecosystems and context.",
+    "skills":  [
+                   {
+                       "path":  "./skill-author",
+                       "description":  "Comprehensive guide and automation for creating and packaging skills.",
+                       "name":  "skill-author",
+                       "id":  "skill-author"
+                   },
+                   {
+                       "path":  "./meta-skill-routing",
+                       "description":  "Dynamic skill discovery and routing.",
+                       "name":  "meta-skill-routing",
+                       "id":  "meta-skill-routing"
+                   },
+                   {
+                       "path":  "./meta-context-budgeting",
+                       "description":  "Context window management and purging.",
+                       "name":  "meta-context-budgeting",
+                       "id":  "meta-context-budgeting"
+                   },
+                   {
+                       "path":  "./meta-agentic-chunking",
+                       "description":  "Task decomposition and isolated execution.",
+                       "name":  "meta-agentic-chunking",
+                       "id":  "meta-agentic-chunking"
+                   },
+                   {
+                       "path":  "./meta-mcp-dynamic-tools",
+                       "description":  "MCP-driven dynamic tool injection.",
+                       "name":  "meta-mcp-dynamic-tools",
+                       "id":  "meta-mcp-dynamic-tools"
+                   },
+                   {
+                       "path":  "./meta-recursive-discovery",
+                       "description":  "Autonomous self-improvement and discovery.",
+                       "name":  "meta-recursive-discovery",
+                       "id":  "meta-recursive-discovery"
+                   },
+                   {
+                       "path":  "./meta-skill-importer",
+                       "description":  "Automated workflows for importing external skills from Git repositories.",
+                       "name":  "meta-skill-importer",
+                       "id":  "meta-skill-importer"
+                   }
+               ]
 }

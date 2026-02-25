@@ -69,7 +69,14 @@ if (Test-Path $FinalDest) {
 Write-Host "[*] Importing '$SkillName'..."
 Move-Item -Path $SourcePath -Destination $DestRoot
 
-# 4. Cleanup
+# 4. Strip BOM from imported SKILL.md
+$skillMdPath = Join-Path $FinalDest "SKILL.md"
+if (Test-Path $skillMdPath) {
+    $content = [System.IO.File]::ReadAllText($skillMdPath)
+    [System.IO.File]::WriteAllText($skillMdPath, $content, (New-Object System.Text.UTF8Encoding $False))
+}
+
+# 5. Cleanup
 Write-Host "[*] Cleaning up..."
 Remove-Item $TempDir -Recurse -Force
 

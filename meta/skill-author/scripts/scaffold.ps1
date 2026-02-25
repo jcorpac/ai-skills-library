@@ -56,7 +56,7 @@ Explain how to use this skill.
 List any associated scripts or resources.
 "@
 
-$skillContent | Out-File (Join-Path $fullPath "SKILL.md") -Encoding utf8
+[System.IO.File]::WriteAllText((Join-Path $fullPath "SKILL.md"), $skillContent, (New-Object System.Text.UTF8Encoding $False))
 
 Write-Host "`nSuccessfully scaffolded skill at: $folderPath" -ForegroundColor Green
 Write-Host "`nNEXT STEPS:" -ForegroundColor Yellow

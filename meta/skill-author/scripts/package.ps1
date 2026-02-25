@@ -28,6 +28,11 @@ Write-Host "Packaging skill '$skillName'..." -ForegroundColor Cyan
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 if (Test-Path $skillPackagePath) { Remove-Item $skillPackagePath -Force }
 
+# Strip BOM from SKILL.md before archiving
+$skillMdPath = Join-Path $skillFolder.FullName "SKILL.md"
+$content = [System.IO.File]::ReadAllText($skillMdPath)
+[System.IO.File]::WriteAllText($skillMdPath, $content, (New-Object System.Text.UTF8Encoding $False))
+
 # Create Zip
 Compress-Archive -Path "$($skillFolder.FullName)\*" -DestinationPath $zipPath -Force
 

@@ -1,7 +1,7 @@
 # AI Skills Library - Metadata Generator
 # Consolidates README metadata into category-specific manifests and READMEs
 
-$readmePath = Join-Path $PSScriptRoot ".." ".." "README.md"
+$readmePath = Join-Path $PSScriptRoot "..\..\..\README.md"
 if (-not (Test-Path $readmePath)) {
     Write-Error "README.md not found at expected path: $readmePath"
     exit 1
@@ -59,7 +59,7 @@ foreach ($cat in $categoryMeta.Keys.GetEnumerator() | Sort-Object) {
         continue
     }
 
-    $targetDir = Join-Path $PSScriptRoot ".." ".." $cat
+    $targetDir = Join-Path $PSScriptRoot "..\..\..\$cat"
     if (-not (Test-Path $targetDir)) {
         Write-Warning "Category directory not found: $targetDir. Skipping."
         continue
@@ -79,7 +79,7 @@ foreach ($cat in $categoryMeta.Keys.GetEnumerator() | Sort-Object) {
             })
     }
     $manifestPath = Join-Path $targetDir "SKILLS_MANIFEST.json"
-    $manifest | ConvertTo-Json -Depth 5 | Out-File $manifestPath -Encoding utf8
+    [System.IO.File]::WriteAllText($manifestPath, ($manifest | ConvertTo-Json -Depth 5), (New-Object System.Text.UTF8Encoding $False))
 
     # 2. Generate Category README.md
     $catReadme = @"
@@ -93,7 +93,7 @@ $($meta.desc)
         $catReadme += "`n- **[$($s.name)]($($s.path))**: $($s.desc)"
     }
     $catReadmePath = Join-Path $targetDir "README.md"
-    $catReadme | Out-File $catReadmePath -Encoding utf8
+    [System.IO.File]::WriteAllText($catReadmePath, $catReadme, (New-Object System.Text.UTF8Encoding $False))
     
     Write-Host "Synced metadata for $cat ($(@($skills).Count) skills)" -ForegroundColor Green
 }
