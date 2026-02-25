@@ -14,7 +14,7 @@
 $ErrorActionPreference = "Stop"
 
 $RepoRoot = Get-Item $PSScriptRoot
-$DestDir = Join-Path $HOME ".gemini" "skills"
+$DestDir = Join-Path -Path (Join-Path -Path $HOME -ChildPath ".gemini") -ChildPath "skills"
 
 Write-Host "--- AI Skills Library Installer ---" -ForegroundColor Cyan
 Write-Host "Source: $($RepoRoot.FullName)"
