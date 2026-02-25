@@ -1,6 +1,6 @@
 ---
 name: rs-memory-safety
-description: Deep dive into Rust's core promise: memory safety without a garbage collector via ownership and lifetimes.
+description: "Deep dive into Rust's core promise: memory safety without a garbage collector via ownership and lifetimes."
 ---
 
 # Rust Memory Safety
