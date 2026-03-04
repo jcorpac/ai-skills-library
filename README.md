@@ -75,6 +75,8 @@ Premium frontend development without frameworks.
 - **[ui-dynamic-interactions](./ui/ui-dynamic-interactions)**: Professional animations and feedback.
 - **[ui-responsive-grids](./ui/ui-responsive-grids)**: Fluid layouts with Grid and Flexbox.
 - **[ui-component-architecture](./ui/ui-component-architecture)**: Reusable, encapsulated UI blocks.
+- **[ui-lcars-foundations](./ui/ui-lcars-foundations)**: Core design system and layout principles for replicating the Star Trek LCARS graphical interface.
+- **[ui-lcars-components](./ui/ui-lcars-components)**: CSS patterns for creating the iconic pill buttons, data bars, and sweeping elbows of the Star Trek LCARS interface.
 
 ### 🛠️ Git Mastery Suite
 Professional version control and repository management.

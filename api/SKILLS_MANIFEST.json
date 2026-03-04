@@ -1,36 +1,36 @@
 {
-    "category":  "Modern Ecosystem Expansion (FastAPI)",
-    "description":  "Type-safe, high-performance API development with Modern Python.",
-    "skills":  [
-                   {
-                       "path":  "./api-fastapi-modern",
-                       "description":  "Type-safe, high-performance APIs.",
-                       "name":  "api-fastapi-modern",
-                       "id":  "api-fastapi-modern"
-                   },
-                   {
-                       "path":  "./gemini-api-dev",
-                       "description":  "*Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).",
-                       "name":  "gemini-api-dev",
-                       "id":  "gemini-api-dev"
-                   },
-                   {
-                       "path":  "./api-firebase-foundations",
-                       "description":  "Core setup and configuration for Firebase.",
-                       "name":  "api-firebase-foundations",
-                       "id":  "api-firebase-foundations"
-                   },
-                   {
-                       "path":  "./api-firebase-auth",
-                       "description":  "Authentication patterns with Firebase Auth.",
-                       "name":  "api-firebase-auth",
-                       "id":  "api-firebase-auth"
-                   },
-                   {
-                       "path":  "./api-firebase-firestore",
-                       "description":  "Cloud Firestore NoSQL database operations.",
-                       "name":  "api-firebase-firestore",
-                       "id":  "api-firebase-firestore"
-                   }
-               ]
+  "category": "Modern Ecosystem Expansion (FastAPI)",
+  "skills": [
+    {
+      "path": "./api-fastapi-modern",
+      "id": "api-fastapi-modern",
+      "description": "Type-safe, high-performance APIs.",
+      "name": "api-fastapi-modern"
+    },
+    {
+      "path": "./gemini-api-dev",
+      "id": "gemini-api-dev",
+      "description": "*Imported from [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills)* - Comprehensive development tools for the Gemini API (multimodal, function calling, structured output).",
+      "name": "gemini-api-dev"
+    },
+    {
+      "path": "./api-firebase-foundations",
+      "id": "api-firebase-foundations",
+      "description": "Core setup and configuration for Firebase.",
+      "name": "api-firebase-foundations"
+    },
+    {
+      "path": "./api-firebase-auth",
+      "id": "api-firebase-auth",
+      "description": "Authentication patterns with Firebase Auth.",
+      "name": "api-firebase-auth"
+    },
+    {
+      "path": "./api-firebase-firestore",
+      "id": "api-firebase-firestore",
+      "description": "Cloud Firestore NoSQL database operations.",
+      "name": "api-firebase-firestore"
+    }
+  ],
+  "description": "Type-safe, high-performance API development with Modern Python."
 }
