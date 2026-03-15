@@ -10,3 +10,4 @@ Establish clear communication and maintainable technical lore.
 - **[doc-changelog-keeper](./doc-changelog-keeper)**: Human-readable version history.
 - **[doc-style-guide](./doc-style-guide)**: Standards for technical writing and formatting.
 - **[doc-inline-clean](./doc-inline-clean)**: Principles for self-documenting code.
+- **[doc-mermaid-architecture](./doc-mermaid-architecture)**: Generate Lunar-Approved technical specifications through robust Mermaid.js diagrams.

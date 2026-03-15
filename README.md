@@ -44,6 +44,7 @@ Establish clear communication and maintainable technical lore.
 - **[doc-changelog-keeper](./doc/doc-changelog-keeper)**: Human-readable version history.
 - **[doc-style-guide](./doc/doc-style-guide)**: Standards for technical writing and formatting.
 - **[doc-inline-clean](./doc/doc-inline-clean)**: Principles for self-documenting code.
+- **[doc-mermaid-architecture](./doc/doc-mermaid-architecture)**: Generate Lunar-Approved technical specifications through robust Mermaid.js diagrams.
 
 ### 🐍 Data Science Suite (Python)
 Specialized patterns for the full data science lifecycle.
@@ -77,6 +78,8 @@ Premium frontend development without frameworks.
 - **[ui-component-architecture](./ui/ui-component-architecture)**: Reusable, encapsulated UI blocks.
 - **[ui-lcars-foundations](./ui/ui-lcars-foundations)**: Core design system and layout principles for replicating the Star Trek LCARS graphical interface.
 - **[ui-lcars-components](./ui/ui-lcars-components)**: CSS patterns for creating the iconic pill buttons, data bars, and sweeping elbows of the Star Trek LCARS interface.
+- **[ui-figma-integration](./ui/ui-figma-integration)**: Extract and map visually beautiful layouts directly from Figma APIs or wireframes.
+- **[ui-asset-generation](./ui/ui-asset-generation)**: Generate cohesive, high-fidelity art assets tailored for visual UI ecosystems.
 
 ### 🛠️ Git Mastery Suite
 Professional version control and repository management.
@@ -144,6 +147,7 @@ High-performance tools for modern data science and API development.
 - **[api-firebase-foundations](./api/api-firebase-foundations)**: Core setup and configuration for Firebase.
 - **[api-firebase-auth](./api/api-firebase-auth)**: Authentication patterns with Firebase Auth.
 - **[api-firebase-firestore](./api/api-firebase-firestore)**: Cloud Firestore NoSQL database operations.
+- **[api-confluence-integration](./api/api-confluence-integration)**: Standardize and push strictly documented technical specs to Confluence.
 
 ### 🔐 Security & Threat Modeling
 OWASP security testing and vulnerability remediation.
@@ -153,6 +157,7 @@ OWASP security testing and vulnerability remediation.
 - **[sec-zap-dast-integration](./sec/sec-zap-dast-integration)**: Assistance with setting up and parsing OWASP ZAP scans.
 - **[sec-config-auditor](./sec/sec-config-auditor)**: Review infrastructure configs (Docker, K8s, NGINX) for misconfigurations.
 - **[sec-input-validation-generator](./sec/sec-input-validation-generator)**: Generate strict validation schemas (Zod, Pydantic) to prevent injection.
+- **[sec-fuzz-testing](./sec/sec-fuzz-testing)**: Discover edge cases and vulnerabilities through randomized input/fuzz testing campaigns.
 
 ### 🐳 Docker & Container Mastery
 Production-grade containerization and orchestration.

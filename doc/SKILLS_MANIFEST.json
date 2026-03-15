@@ -3,45 +3,51 @@
   "skills": [
     {
       "path": "./doc-readme-master",
-      "id": "doc-readme-master",
       "description": "Crafting high-impact project entry points.",
-      "name": "doc-readme-master"
+      "name": "doc-readme-master",
+      "id": "doc-readme-master"
     },
     {
       "path": "./doc-adr-architect",
-      "id": "doc-adr-architect",
       "description": "Recording architectural decision context.",
-      "name": "doc-adr-architect"
+      "name": "doc-adr-architect",
+      "id": "doc-adr-architect"
     },
     {
       "path": "./doc-api-auto",
-      "id": "doc-api-auto",
       "description": "Streamlined API documenting strategies.",
-      "name": "doc-api-auto"
+      "name": "doc-api-auto",
+      "id": "doc-api-auto"
     },
     {
       "path": "./doc-knowledge-base",
-      "id": "doc-knowledge-base",
       "description": "Internal lore and onboarding guides.",
-      "name": "doc-knowledge-base"
+      "name": "doc-knowledge-base",
+      "id": "doc-knowledge-base"
     },
     {
       "path": "./doc-changelog-keeper",
-      "id": "doc-changelog-keeper",
       "description": "Human-readable version history.",
-      "name": "doc-changelog-keeper"
+      "name": "doc-changelog-keeper",
+      "id": "doc-changelog-keeper"
     },
     {
       "path": "./doc-style-guide",
-      "id": "doc-style-guide",
       "description": "Standards for technical writing and formatting.",
-      "name": "doc-style-guide"
+      "name": "doc-style-guide",
+      "id": "doc-style-guide"
     },
     {
       "path": "./doc-inline-clean",
-      "id": "doc-inline-clean",
       "description": "Principles for self-documenting code.",
-      "name": "doc-inline-clean"
+      "name": "doc-inline-clean",
+      "id": "doc-inline-clean"
+    },
+    {
+      "path": "./doc-mermaid-architecture",
+      "description": "Generate Lunar-Approved technical specifications through robust Mermaid.js diagrams.",
+      "name": "doc-mermaid-architecture",
+      "id": "doc-mermaid-architecture"
     }
   ],
   "description": "Establish clear communication and maintainable technical lore."

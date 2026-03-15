@@ -8,3 +8,4 @@ Type-safe, high-performance API development with Modern Python.
 - **[api-firebase-foundations](./api-firebase-foundations)**: Core setup and configuration for Firebase.
 - **[api-firebase-auth](./api-firebase-auth)**: Authentication patterns with Firebase Auth.
 - **[api-firebase-firestore](./api-firebase-firestore)**: Cloud Firestore NoSQL database operations.
+- **[api-confluence-integration](./api-confluence-integration)**: Standardize and push strictly documented technical specs to Confluence.

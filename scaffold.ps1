@@ -7,7 +7,7 @@ param(
 )
 
 # Valid Categories
-$validCategories = @("api", "doc", "ds", "flask", "git", "mcp", "meta", "ml", "ops", "py", "rs", "tdd", "ui")
+$validCategories = @("api", "doc", "ds", "flask", "git", "mcp", "meta", "ml", "ops", "py", "rs", "sec", "tdd", "ui")
 
 if (-not $Category) {
     Write-Host "Available Categories: $($validCategories -join ', ')" -ForegroundColor Cyan
